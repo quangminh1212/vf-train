@@ -1,0 +1,2765 @@
+VERSION "HIPBNYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY/4/%%%/4/'%**4YYY///"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: Tester CHARGER PC ABS ESCL SCU HMI MCU VCU BMS
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ bms_iso_signal : 0|64@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ HMI_JIG_TEST_CASE : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_iso_signal : 0|64@0+ (1,0) [0|1.8446744074E+019] "" Vector__XXX
+ SG_ bms0_controlSysMaxChgCurrent : 0|16@0- (0.02,0) [-655|655] "A" Vector__XXX
+ SG_ bms0_controlSysMaxDsgCurrent : 0|16@0- (0.02,0) [-655|655] "A" Vector__XXX
+ SG_ bms0_controlSysMaxChgPower : 0|16@0- (1,0) [-32767|32767] "W" Vector__XXX
+ SG_ bms0_controlSysMaxDsgPower : 0|16@0- (1,0) [-32767|32767] "W" Vector__XXX
+ SG_ bms0_chargingVoltageLimit : 0|16@0+ (0.002,0) [0|131.07] "V" Vector__XXX
+ SG_ bms0_chargingCurrentLimit : 0|16@0- (0.02,0) [-655|655] "A" Vector__XXX
+ SG_ bms0_chargingFullyChargedSts : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_chargingTBD1 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_chargingTBD2 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_chargingTBD3 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_chargingDiagCharger : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_statusIgnitionRecognition : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusRollingCounter : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusBmsUserMode : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusBmsOpState : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusCurrentDirection : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_stsDiagCellTopPriorResult : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_stsRentalFuncEnable : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_stsAuthFuncEnable : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusCB02 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusCB01 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusCB04 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusCB03 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusCB06 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusCB05 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusCB08 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusCB07 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusCB10 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusCB09 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusCB12 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusCB11 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusCB14 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusCB13 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demOverVoltageCell : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demOverVoltagePack : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demUnderVoltageCell : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demUnderVoltagePack : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demOverCurrentChg : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demOverCurrentDis : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demOverTemperatureChg : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demOverTemperatureDis : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demUnderTemperatureChg : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demUnderTemperatureDis : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demImbCellChg : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demImbCellRest : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demImbCellTemperature : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demImbCellSOC : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demOverVoltageCellCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demUnderVoltageCellCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demOverCurrentChgCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demOverCurrentDisCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demOverTemperatureChgCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demUnderTemperatureChgCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demOverTemperatureDisCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demUnderTemperatureDisCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demImbCellChgCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demImbCellRestCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demImbCellTemperatureCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demOverVoltagePackCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demUnderVoltagePackCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demImbCellSOCCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_statusPowerCFET : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusPowerDFET : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusLowCapacityAlarm : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusPrechargeFET : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusPackVoltageBAT : 0|16@0+ (0.002,0) [0|131.07] "V" Vector__XXX
+ SG_ bms0_statusTBD1 : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ bms0_statusPackCurrent : 0|16@0- (0.02,0) [-150|150] "A" Vector__XXX
+ SG_ bms0_socFullChargeCapacityAh : 0|8@0+ (0.1,0) [0|25.5] "Ah" Vector__XXX
+ SG_ bms0_socRemainingCapacityAh : 0|8@0+ (0.1,0) [0|25.5] "Ah" Vector__XXX
+ SG_ bms0_socRSOC : 0|8@0+ (1,0) [0|255] "%" Vector__XXX
+ SG_ bms0_socSOH : 0|8@0+ (1,0) [0|255] "%" Vector__XXX
+ SG_ bms0_socCycleCount : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ bms0_socRemainingChargingTime : 0|16@0+ (1,0) [0|65535] "min" Vector__XXX
+ SG_ bms0_AccumChargeCapacityAh : 0|32@0+ (1,0) [-1|0] "Ah" Vector__XXX
+ SG_ bms0_AccumDischargeCapacityAh : 0|32@0+ (1,0) [-1|0] "Ah" Vector__XXX
+ SG_ bms0_demAsicOverVoltage : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demAsicUnderVoltage : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demAsicOverCurrentDis : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demAsicShortCurrent : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demAsicDeviceXReady : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demAsicOverRide : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demAsicOverVoltageCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demAsicUnderVoltageCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demAsicOverCurrentDisCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demAsicShortCurrentCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demAsicDeviceXReadyCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demAsicOverRideCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_statusVoltageCellAvg : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms0_statusVoltageCellMin : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms0_statusVoltageCellMinNo : 0|8@0+ (1,0) [0|255] "Bank" Vector__XXX
+ SG_ bms0_statusVoltageCellMaxNo : 0|8@0+ (1,0) [0|255] "Bank" Vector__XXX
+ SG_ bms0_statusVoltageCell01 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms0_statusVoltageCell02 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms0_statusVoltageCell03 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms0_statusVoltageCell04 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms0_statusVoltageCell05 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms0_statusVoltageCell06 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms0_statusVoltageCell07 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms0_statusVoltageCell08 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms0_statusVoltageCell09 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms0_statusVoltageCell10 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms0_statusVoltageCell11 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms0_statusVoltageCell12 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms0_statusVoltageCell13 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms0_statusVoltageCell14 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms0_demBMSCFET : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demBMSDFET : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demBMSPFET : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demBMSASICComm : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demBMSASICShutdown : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demBMSPFET2 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demBMSCFETCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demBMSDFETCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demBMSPFETCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demBMSASICCommCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demBMSASICShutdownCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demBMSPFET2Count : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demPackFuseBlow : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demPackFuseResistance : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demPackFuseOverCurrent : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demPackFETTemperature : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demPackFuseBlowCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demPackFuseResistanceCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demPackFuseOverCurrentCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_demPackFETTemperatureCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_mileage_data : 0|32@0+ (1,0) [-1|0] "" Vector__XXX
+ SG_ bms0_mileageTBD1 : 0|32@0+ (1,0) [-1|0] "" Vector__XXX
+ SG_ bms0_statusTemperatureCellAvg : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms0_statusTemperatureCellMin : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms0_statusTemperatureCellMinNo : 0|8@0+ (1,0) [0|255] "Th" Vector__XXX
+ SG_ bms0_statusTemperatureCellMax : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms0_statusTemperatureCellMaxNo : 0|8@0+ (1,0) [0|255] "Th" Vector__XXX
+ SG_ bms0_statusTemperatureCell1 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms0_statusTemperatureCell2 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms0_statusTemperatureCell3 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms0_statusTemperatureCB1 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms0_statusTemperatureCB2 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms0_statusTemperatureFET1 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms0_statusTemperatureFET2 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms0_rentalinfo_remaintime : 0|32@0+ (1,0) [-1|0] "" Vector__XXX
+ SG_ bms0_rentalinfo_bonustime : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ bms0_rentalinfo_expired : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_rentalinfoTBD1 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_rentalinfoTBD2 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms0_rentalinfo_customer1 : 0|32@0+ (1,0) [-1|0] "" Vector__XXX
+ SG_ bms0_rentalinfo_customer12 : 0|32@0+ (1,0) [-1|0] "" Vector__XXX
+ SG_ bms0_rentalinfo_customer2 : 0|32@0+ (1,0) [-1|0] "" Vector__XXX
+ SG_ bms0_rentalinfo_customer22 : 0|32@0+ (1,0) [-1|0] "" Vector__XXX
+ SG_ bms0_statustrust_bms1charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statustrust_bms0charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statustrust_bms3charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statustrust_bms2charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_resulttrust_bms1charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_resulttrust_bms0charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_resulttrust_bms3charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_resulttrust_bms2charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statustrust_bms1cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statustrust_bms0cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statustrust_bms3cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statustrust_bms2cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_resulttrust_bms1cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_resulttrust_bms0cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_resulttrust_bms3cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_resulttrust_bms2cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demParallelOvrdSlave : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demParallelOvrdMaster : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demParallelDiffVoltage : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demParallelDiffCurrent : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demParallelDiffSOC : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demParallelDiffTemp : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demParallelDiffVer : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_demParallelDiffSOH : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusID : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusISOTPID : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusPackTimeout : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusMasterAuthSync : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusParallelTBD1 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusParallelDiagPack1 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_statusParallelDiagPack0 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_versionSoftwareMinor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_versionSoftwareSubminor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_versionBootloaderMajor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_versionSoftwareMajor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_versionBootloaderMinor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_versionBootloaderSubminor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_versionHardwareMajor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_versionTBD1 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms0_versionManufacturerDate : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ bms0_versionManufacturerSerialNo : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ bms1_controlSysMaxChgCurrent : 0|16@0- (0.02,0) [-655|655] "A" Vector__XXX
+ SG_ bms1_controlSysMaxDsgCurrent : 0|16@0- (0.02,0) [-655|655] "A" Vector__XXX
+ SG_ bms1_controlSysMaxChgPower : 0|16@0- (1,0) [-32767|32767] "W" Vector__XXX
+ SG_ bms1_controlSysMaxDsgPower : 0|16@0- (1,0) [-32767|32767] "W" Vector__XXX
+ SG_ bms1_chargingVoltageLimit : 0|16@0+ (0.002,0) [0|131.07] "V" Vector__XXX
+ SG_ bms1_chargingCurrentLimit : 0|16@0- (0.02,0) [-655|655] "A" Vector__XXX
+ SG_ bms1_chargingFullyChargedSts : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_chargingTBD1 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_chargingTBD2 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_chargingTBD3 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_chargingDiagCharger : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_statusIgnitionRecognition : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusRollingCounter : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusBmsUserMode : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusBmsOpState : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusCurrentDirection : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_stsDiagCellTopPriorResult : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_stsRentalFuncEnable : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_stsAuthFuncEnable : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusCB02 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusCB01 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusCB04 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusCB03 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusCB06 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusCB05 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusCB08 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusCB07 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusCB10 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusCB09 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusCB12 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusCB11 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusCB14 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusCB13 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demOverVoltageCell : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demOverVoltagePack : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demUnderVoltageCell : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demUnderVoltagePack : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demOverCurrentChg : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demOverCurrentDis : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demOverTemperatureChg : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demOverTemperatureDis : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demUnderTemperatureChg : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demUnderTemperatureDis : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demImbCellChg : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demImbCellRest : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demImbCellTemperature : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demImbCellSOC : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demOverVoltageCellCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demUnderVoltageCellCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demOverCurrentChgCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demOverCurrentDisCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demOverTemperatureChgCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demUnderTemperatureChgCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demOverTemperatureDisCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demUnderTemperatureDisCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demImbCellChgCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demImbCellRestCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demImbCellTemperatureCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demOverVoltagePackCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demUnderVoltagePackCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demImbCellSOCCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_statusPowerCFET : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusPowerDFET : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusLowCapacityAlarm : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusPrechargeFET : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusPackVoltageBAT : 0|16@0+ (0.002,0) [0|131.07] "V" Vector__XXX
+ SG_ bms1_statusTBD1 : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ bms1_statusPackCurrent : 0|16@0- (0.02,0) [-150|150] "A" Vector__XXX
+ SG_ bms1_socFullChargeCapacityAh : 0|8@0+ (0.1,0) [0|25.5] "Ah" Vector__XXX
+ SG_ bms1_socRemainingCapacityAh : 0|8@0+ (0.1,0) [0|25.5] "Ah" Vector__XXX
+ SG_ bms1_socRSOC : 0|8@0+ (1,0) [0|255] "%" Vector__XXX
+ SG_ bms1_socSOH : 0|8@0+ (1,0) [0|255] "%" Vector__XXX
+ SG_ bms1_socCycleCount : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ bms1_socRemainingChargingTime : 0|16@0+ (1,0) [0|65535] "min" Vector__XXX
+ SG_ bms1_AccumChargeCapacityAh : 0|32@0+ (1,0) [-1|0] "Ah" Vector__XXX
+ SG_ bms1_AccumDischargeCapacityAh : 0|32@0+ (1,0) [-1|0] "Ah" Vector__XXX
+ SG_ bms1_demAsicOverVoltage : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demAsicUnderVoltage : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demAsicOverCurrentDis : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demAsicShortCurrent : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demAsicDeviceXReady : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demAsicOverRide : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demAsicOverVoltageCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demAsicUnderVoltageCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demAsicOverCurrentDisCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demAsicShortCurrentCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demAsicDeviceXReadyCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demAsicOverRideCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_statusVoltageCellAvg : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms1_statusVoltageCellMin : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms1_statusVoltageCellMinNo : 0|8@0+ (1,0) [0|255] "Bank" Vector__XXX
+ SG_ bms1_statusVoltageCellMaxNo : 0|8@0+ (1,0) [0|255] "Bank" Vector__XXX
+ SG_ bms1_statusVoltageCell01 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms1_statusVoltageCell02 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms1_statusVoltageCell03 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms1_statusVoltageCell04 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms1_statusVoltageCell05 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms1_statusVoltageCell06 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms1_statusVoltageCell07 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms1_statusVoltageCell08 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms1_statusVoltageCell09 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms1_statusVoltageCell10 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms1_statusVoltageCell11 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms1_statusVoltageCell12 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms1_statusVoltageCell13 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms1_statusVoltageCell14 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms1_demBMSCFET : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demBMSDFET : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demBMSPFET : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demBMSASICComm : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demBMSASICShutdown : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demBMSPFET2 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demBMSCFETCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demBMSDFETCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demBMSPFETCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demBMSASICCommCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demBMSASICShutdownCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demBMSPFET2Count : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demPackFuseBlow : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demPackFuseResistance : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demPackFuseOverCurrent : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demPackFETTemperature : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demPackFuseBlowCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demPackFuseResistanceCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demPackFuseOverCurrentCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_demPackFETTemperatureCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_mileage_data : 0|32@0+ (1,0) [-1|0] "" Vector__XXX
+ SG_ bms1_mileageTBD1 : 0|32@0+ (1,0) [-1|0] "" Vector__XXX
+ SG_ bms1_statusTemperatureCellAvg : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms1_statusTemperatureCellMin : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms1_statusTemperatureCellMinNo : 0|8@0+ (1,0) [0|255] "Th" Vector__XXX
+ SG_ bms1_statusTemperatureCellMax : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms1_statusTemperatureCellMaxNo : 0|8@0+ (1,0) [0|255] "Th" Vector__XXX
+ SG_ bms1_statusTemperatureCell1 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms1_statusTemperatureCell2 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms1_statusTemperatureCell3 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms1_statusTemperatureCB1 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms1_statusTemperatureCB2 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms1_statusTemperatureFET1 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms1_statusTemperatureFET2 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms1_rentalinfo_remaintime : 0|32@0+ (1,0) [-1|0] "" Vector__XXX
+ SG_ bms1_rentalinfo_bonustime : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ bms1_rentalinfo_expired : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_rentalinfoTBD1 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_rentalinfoTBD2 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms1_rentalinfo_customer1 : 0|32@0+ (1,0) [-1|0] "" Vector__XXX
+ SG_ bms1_rentalinfo_customer12 : 0|32@0+ (1,0) [-1|0] "" Vector__XXX
+ SG_ bms1_rentalinfo_customer2 : 0|32@0+ (1,0) [-1|0] "" Vector__XXX
+ SG_ bms1_rentalinfo_customer22 : 0|32@0+ (1,0) [-1|0] "" Vector__XXX
+ SG_ bms1_statustrust_bms1charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statustrust_bms0charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statustrust_bms3charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statustrust_bms2charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_resulttrust_bms1charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_resulttrust_bms0charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_resulttrust_bms3charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_resulttrust_bms2charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statustrust_bms1cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statustrust_bms0cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statustrust_bms3cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statustrust_bms2cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_resulttrust_bms1cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_resulttrust_bms0cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_resulttrust_bms3cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_resulttrust_bms2cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demParallelOvrdSlave : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demParallelOvrdMaster : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demParallelDiffVoltage : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demParallelDiffCurrent : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demParallelDiffSOC : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demParallelDiffTemp : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demParallelDiffVer : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_demParallelDiffSOH : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusID : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusISOTPID : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusPackTimeout : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusMasterAuthSync : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusParallelTBD1 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusParallelDiagPack1 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_statusParallelDiagPack0 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_versionSoftwareMinor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_versionSoftwareSubminor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_versionBootloaderMajor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_versionSoftwareMajor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_versionBootloaderMinor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_versionBootloaderSubminor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_versionHardwareMajor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_versionTBD1 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms1_versionManufacturerDate : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ bms1_versionManufacturerSerialNo : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ bms2_statustrust_bms3charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statustrust_bms3cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statustrust_bms2charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statustrust_bms2cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statustrust_bms1charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statustrust_bms1cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statustrust_bms0charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statustrust_bms0cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_resulttrust_bms3charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_resulttrust_bms3cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_resulttrust_bms2charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_resulttrust_bms2cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_resulttrust_bms1charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_resulttrust_bms1cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_resulttrust_bms0charger : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_resulttrust_bms0cbox : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_rentalinfoTBD2 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_rentalinfoTBD1 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_rentalinfo_remaintime : 0|32@0+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ bms2_rentalinfo_expired : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_rentalinfo_bonustime : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ bms2_rentalinfo_customer22 : 0|32@0+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ bms2_rentalinfo_customer2 : 0|32@0+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ bms2_rentalinfo_customer12 : 0|32@0+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ bms2_rentalinfo_customer1 : 0|32@0+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ bms2_statusParallelTBD1 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusParallelDiagPack1 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusParallelDiagPack0 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusPackTimeout : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusMasterAuthSync : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusISOTPID : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusID : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_iso_signal : 0|64@0+ (1,0) [0|1.84467440737096E+019] "" Vector__XXX
+ SG_ bms2_statusVoltageCell14 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms2_statusVoltageCell13 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms2_statusVoltageCell12 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms2_statusVoltageCell11 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms2_statusVoltageCell10 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms2_statusVoltageCell09 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms2_statusVoltageCell08 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms2_statusVoltageCell07 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms2_statusVoltageCell06 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms2_statusVoltageCell05 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms2_statusVoltageCell04 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms2_statusVoltageCell03 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms2_statusVoltageCell02 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms2_statusVoltageCell01 : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms2_statusVoltageCellMinNo : 0|8@0+ (1,0) [0|255] "Bank" Vector__XXX
+ SG_ bms2_statusVoltageCellMin : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms2_statusVoltageCellMaxNo : 0|8@0+ (1,0) [0|255] "Bank" Vector__XXX
+ SG_ bms2_statusVoltageCellMax : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms2_statusVoltageCellAvg : 0|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms2_statusTemperatureFET2 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms2_statusTemperatureFET1 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms2_statusTemperatureCB2 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms2_statusTemperatureCB1 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms2_statusTemperatureCell3 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms2_statusTemperatureCell2 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms2_statusTemperatureCell1 : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms2_statusTemperatureCellMinNo : 0|8@0+ (1,0) [0|255] "Th" Vector__XXX
+ SG_ bms2_statusTemperatureCellMin : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms2_statusTemperatureCellMaxNo : 0|8@0+ (1,0) [0|255] "Th" Vector__XXX
+ SG_ bms2_statusTemperatureCellMax : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms2_statusTemperatureCellAvg : 0|8@0- (1,0) [-127|127] "กษ" Vector__XXX
+ SG_ bms2_socSOH : 0|8@0+ (1,0) [0|255] "%" Vector__XXX
+ SG_ bms2_socRSOC : 0|8@0+ (1,0) [0|255] "%" Vector__XXX
+ SG_ bms2_socRemainingChargingTime : 0|16@0+ (1,0) [0|65535] "min" Vector__XXX
+ SG_ bms2_socRemainingCapacityAh : 0|8@0+ (0.2,0) [0|51] "Ah" Vector__XXX
+ SG_ bms2_socFullChargeCapacityAh : 0|8@0+ (0.2,0) [0|51] "Ah" Vector__XXX
+ SG_ bms2_socCycleCount : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ bms2_versionTBD1 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_versionSoftwareSubminor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_versionSoftwareMinor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_versionSoftwareMajor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_versionManufacturerSerialNo : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ bms2_versionManufacturerDate : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ bms2_versionHardwareMajor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_versionBootloaderSubminor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_versionBootloaderMinor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_versionBootloaderMajor : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusTBD1 : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ bms2_statusPrechargeFET : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusPowerDFET : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusPowerCFET : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusPackVoltageBAT : 0|16@0+ (0.002,0) [0|131.07] "V" Vector__XXX
+ SG_ bms2_statusPackCurrent : 0|16@0- (0.02,0) [-655|655] "A" Vector__XXX
+ SG_ bms2_statusLowCapacityAlarm : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_mileageTBD1 : 0|32@0+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ bms2_mileage_data : 0|32@0+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ bms2_demParallelOvrdSlave : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demParallelOvrdMaster : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demParallelDiffVoltage : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demParallelDiffVer : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demParallelDiffTemp : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demParallelDiffSOH : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demParallelDiffSOC : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demParallelDiffCurrent : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demPackFuseResistanceCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demPackFuseOverCurrentCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demPackFuseBlowCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demPackFETTemperatureCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demPackFuseResistance : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demPackPhotoDiote : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demPackFuseBlow : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demPackFETTemperature : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demOverVoltagePackCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demUnderVoltagePackCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demImbCellTemperatureCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demImbCellSOCCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demImbCellRestCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demImbCellChgCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demOverVoltageCellCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demOverTemperatureDisCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demOverTemperatureChgCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demOverCurrentDisCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demOverCurrentChgCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demUnderVoltageCellCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demUnderTemperatureDisCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demUnderTemperatureChgCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demOverVoltagePack : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demOverVoltageCell : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demOverTemperatureDis : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demOverTemperatureChg : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demOverCurrentDis : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demOverCurrentChg : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demUnderVoltagePack : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demUnderVoltageCell : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demUnderTemperatureDis : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demUnderTemperatureChg : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demImbCellTemperature : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demImbCellSOC : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demImbCellRest : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demImbCellChg : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demBMSPFETCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demBMSPFET2Count : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demBMSDFETCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demBMSCFETCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demBMSASICShutdownCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demBMSASICCommCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demBMSPFET2 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demBMSPFET : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demBMSDFET : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demBMSCFET : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demBMSASICShutdown : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demBMSASICComm : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demAsicUnderVoltageCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demAsicShortCurrentCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demAsicOverVoltageCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demAsicOverRideCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demAsicOverCurrentDisCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demAsicDeviceXReadyCount : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_demAsicUnderVoltage : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demAsicShortCurrent : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demAsicOverVoltage : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demAsicOverRide : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demAsicOverCurrentDis : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_demAsicDeviceXReady : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_chargingVoltageLimit : 0|16@0+ (0.002,0) [0|131.07] "V" Vector__XXX
+ SG_ bms2_chargingTBD3 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_chargingTBD2 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_chargingTBD1 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_chargingFullyChargedSts : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_chargingDiagCharger : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_chargingCurrentLimit : 0|16@0- (0.02,0) [-655|655] "A" Vector__XXX
+ SG_ bms2_statusCB14 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusCB13 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusCB12 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusCB11 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusCB10 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusCB09 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusCB08 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusCB07 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusCB06 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusCB05 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusCB04 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusCB03 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusCB02 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusCB01 : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusRollingCounter : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusIgnitionRecognition : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusCurrentDirection : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_statusBmsUserMode : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_statusBmsOpState : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_stsRentalFuncEnable : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_stsDiagCellTopPriorResult : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ bms2_stsAuthFuncEnable : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms2_AccumDischargeCapacityAh : 0|32@0+ (1,0) [0|4294967295] "Ah" Vector__XXX
+ SG_ bms2_AccumChargeCapacityAh : 0|32@0+ (1,0) [0|4294967295] "Ah" Vector__XXX
+ SG_ bms2_controlSysMaxDsgPower : 0|16@0- (1,0) [-32767|32767] "W" Vector__XXX
+ SG_ bms2_controlSysMaxDsgCurrent : 0|16@0- (0.02,0) [-655|655] "A" Vector__XXX
+ SG_ bms2_controlSysMaxChgPower : 0|16@0- (1,0) [-32767|32767] "W" Vector__XXX
+ SG_ bms2_controlSysMaxChgCurrent : 0|16@0- (0.02,0) [-655|655] "A" Vector__XXX
+
+BO_ 262 VCU_Control_CHGWake: 8 VCU
+ SG_ vcu_ctrl_chgWakePin : 3|4@0+ (1,0) [0|0] ""  CHARGER
+
+BO_ 795 BMS_InfoVoltageCell6: 8 BMS
+ SG_ bms_statusVoltageCell22 : 23|16@0+ (0.0001,0) [0|6.5535] "" Vector__XXX
+ SG_ bms_statusVoltageCell21 : 7|16@0+ (0.0001,0) [0|6.5535] "" Vector__XXX
+
+BO_ 794 BMS_InfoVoltageCell5: 8 BMS
+ SG_ bms_statusVoltageCell20 : 55|16@0+ (0.0001,0) [0|6.5535] "" Vector__XXX
+ SG_ bms_statusVoltageCell19 : 39|16@0+ (0.0001,0) [0|6.5535] "" Vector__XXX
+ SG_ bms_statusVoltageCell18 : 23|16@0+ (0.0001,0) [0|6.5535] "" Vector__XXX
+ SG_ bms_statusVoltageCell17 : 7|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+
+BO_ 782 BMS_InfoContactor: 8 BMS
+ SG_ bms_statusAdcPackVolt : 7|16@0+ (0.01,0) [0|655.35] "10mV"  SCU,VCU
+ SG_ bms_statusAdcAfterFuseVolt : 39|16@0+ (0.01,0) [0|655.35] "10mV"  SCU,VCU
+ SG_ bms_statusAdcAfterContactorVolt : 23|16@0+ (0.01,0) [0|655.35] "10mV"  SCU,VCU
+
+BO_ 1577 ABS_Diag_Ecu_ID: 8 ABS
+ SG_ Abs_signal_to_tester : 7|8@0+ (1,0) [0|0] ""  Tester
+
+BO_ 1791 ABS_Diag_Test_IDF: 8 Tester
+ SG_ Tester_signal_IdF : 7|8@0+ (1,0) [0|0] ""  ABS
+
+BO_ 1790 ABS_Diag_Test_IDE: 8 Tester
+ SG_ Tester_signal_IdE : 7|8@0+ (1,0) [0|0] ""  ABS
+
+BO_ 1789 ABS_Diag_Test_IDD: 8 Tester
+ SG_ Tester_signal_IdD : 7|8@0+ (1,0) [0|0] ""  ABS
+
+BO_ 1788 ABS_Diag_Test_IDC: 8 Tester
+ SG_ Tester_signal_IdC : 7|8@0+ (1,0) [0|0] ""  ABS
+
+BO_ 1787 ABS_Diag_Test_IDB: 8 Tester
+ SG_ Tester_signal_IdB : 7|8@0+ (1,0) [0|0] ""  ABS
+
+BO_ 1786 ABS_Diag_Test_IDA: 8 Tester
+ SG_ Tester_signal_IdA : 7|8@0+ (1,0) [0|0] ""  ABS
+
+BO_ 1785 ABS_Diag_Test_ID9: 8 Tester
+ SG_ Tester_signal_Id9 : 7|8@0+ (1,0) [0|0] ""  ABS
+
+BO_ 1784 ABS_Diag_Test_ID8: 8 Tester
+ SG_ Tester_signal_Id8 : 7|8@0+ (1,0) [0|0] ""  ABS
+
+BO_ 1783 ABS_Diag_Test_ID7: 8 Tester
+ SG_ Tester_signal_Id7 : 7|8@0+ (1,0) [0|0] ""  ABS
+
+BO_ 1782 ABS_Diag_Test_ID6: 8 Tester
+ SG_ Tester_signal_Id6 : 7|8@0+ (1,0) [0|0] ""  ABS
+
+BO_ 1781 ABS_Diag_Test_ID5: 8 Tester
+ SG_ Tester_signal_Id5 : 7|8@0+ (1,0) [0|0] ""  ABS
+
+BO_ 1780 ABS_Diag_Test_ID4: 8 Tester
+ SG_ Tester_signal_Id4 : 7|8@0+ (1,0) [0|0] ""  ABS
+
+BO_ 1779 ABS_Diag_Test_ID3: 8 Tester
+ SG_ Tester_signal_Id3 : 7|8@0+ (1,0) [0|0] ""  ABS
+
+BO_ 1778 ABS_Diag_Test_ID2: 8 Tester
+ SG_ Tester_signal_Id2 : 7|8@0+ (1,0) [0|0] ""  BMS,ABS
+
+BO_ 1777 ABS_Diag_Test_ID1: 8 Tester
+ SG_ Tester_signal_Id1 : 7|8@0+ (1,0) [0|0] ""  BMS,ABS
+
+BO_ 1776 ABS_Diag_Test_ID0: 8 Tester
+ SG_ Tester_signal_Id0 : 7|8@0+ (1,0) [0|0] ""  ABS
+
+BO_ 1872 ESCL_Diagnostic_Func: 8 ESCL
+
+BO_ 1937 ESCL_Diagnostic_Res: 8 ESCL
+ SG_ Escl_signal_to_tester : 7|8@0+ (1,0) [0|0] ""  Tester
+
+BO_ 1936 ESCL_Diagnostic_Req: 8 Tester
+ SG_ Tester_signal_diag_req : 7|8@0+ (1,0) [0|0] ""  ESCL
+
+BO_ 297 VCU_ErrorCodeHistory: 8 VCU
+ SG_ vcu_history_err_timestamp : 39|32@0+ (1,0) [0|0] ""  SCU,HMI
+ SG_ vcu_history_err_module_id : 27|4@0+ (1,0) [0|0] ""  SCU,HMI
+ SG_ vcu_history_err_priority : 31|4@0+ (1,0) [0|0] ""  SCU,HMI
+ SG_ vcu_history_err_code : 23|8@0+ (1,0) [0|0] ""  HMI,SCU
+ SG_ vcu_history_err_index : 15|8@0+ (1,0) [0|0] ""  SCU,HMI
+ SG_ vcu_history_err_number : 7|8@0+ (1,0) [0|0] ""  SCU,HMI
+
+BO_ 294 VCU_Faildem2: 8 VCU
+ SG_ vcu_fail_abs_warn : 11|4@0+ (1,0) [0|0] ""  HMI
+ SG_ vcu_fail_escl_enable : 15|4@0+ (1,0) [0|0] ""  HMI
+ SG_ vcu_fail_usbcharg_enable : 3|4@0+ (1,0) [0|0] ""  HMI
+ SG_ vcu_fail_abs_enable : 7|4@0+ (1,0) [0|0] ""  HMI
+
+BO_ 1034 HMI_RunningStatus: 8 HMI
+ SG_ HMI_Status_2 : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ HMI_Status_1 : 55|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ HMI_PhoneStatus : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ HMI_can_node_lost : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ HMI_CountDownSleep : 23|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ HMI_AuthState : 11|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ HMI_VehicleState : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ HMI_RunningError : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ HMI_RunningState : 7|4@0+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 270 VCU_SysStatus: 8 VCU
+ SG_ vcu_sys_status_res2 : 39|2@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ vcu_sys_status_res1 : 15|2@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_Wakeon_In : 13|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_PinProtectStatus : 47|2@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_HighBeam : 21|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_Can0 : 35|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_Can1 : 36|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_OptigaTrust : 37|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_LeftLamp : 33|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_UsbCharger : 34|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_AdcValue : 55|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_Saddle : 32|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_RegistLamp : 31|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_BrakeLamp : 30|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_PositionLamp : 29|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_WakeABS : 28|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_Horn : 27|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_LuggLamp : 25|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_Battery : 26|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_Steering : 24|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_LowBeam : 22|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_RightLamp : 23|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_HmiScu_Enable : 20|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_MotorControl : 19|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_DCDC : 18|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_HmiScuWake : 17|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_ABS : 16|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_AdcPin : 45|6@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_AbsLampSW : 12|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_ModeSW : 11|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_ParkSW : 10|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_BrakeSW : 9|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_HeadLightSW : 8|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_TurnLeftSW : 7|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_PositionSW : 6|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_HighLowSW : 5|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_TurnRightSW : 4|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_MKeySW : 1|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_SideStandSW : 2|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_LugLightSW : 3|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vcu_Status_HornSW : 0|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 9 CHARG_ISO_Message: 8 CHARGER
+ SG_ charger_iso_signal : 7|64@0+ (1,0) [0|48384] ""  BMS
+
+BO_ 1280 CHARG_Infoversion: 8 CHARGER
+ SG_ charger_swsubminor_version : 31|8@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_swminor_version : 19|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_swmajor_version : 23|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_bootsubminor_version : 11|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_bootmajor_version : 15|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_boorminor_version : 3|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_harwareversion : 7|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_Serialnumber : 55|16@0+ (1,0) [0|65535] ""  BMS,HMI,VCU
+ SG_ charger_Manufacturedate : 39|16@0+ (1,0) [0|65535] ""  BMS,HMI,VCU
+
+BO_ 1033 HMI_JigResponse: 6 HMI
+ SG_ HMI_JIG_TEST_CASE_RESULT : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ HMI_JIG_TEST_VALUE : 23|32@0+ (1,0) [0|4294967295] ""  PC
+ SG_ HMI_JIG_TEST_RESULT : 15|8@0+ (1,0) [0|255] ""  PC
+
+BO_ 1281 CHARG_Inforstatus: 8 CHARGER
+ SG_ charger_ignitionstatus_bms : 51|4@0+ (1,0) [0|15] ""  SCU,BMS,HMI,VCU
+ SG_ charger_temperature : 63|8@0+ (1,0) [0|255] ""  SCU,BMS,HMI,VCU
+ SG_ charger_rollingcounter : 55|4@0+ (1,0) [0|15] ""  SCU,BMS,HMI,VCU
+ SG_ charger_runmode : 47|8@0+ (1,0) [0|255] ""  SCU,BMS,HMI,VCU
+ SG_ charger_fastchargemode : 39|8@0+ (1,0) [0|255] ""  SCU,BMS,HMI,VCU
+ SG_ charger_current : 23|16@0- (0.1,0) [-3276.8|3276.7] ""  SCU,BMS,HMI,VCU
+ SG_ charger_voltage : 7|16@0+ (0.1,0) [0|65535] ""  SCU,BMS,HMI,VCU
+
+BO_ 1282 CHARG_ControlBMS: 5 CHARGER
+ SG_ charger_resulttrust_bms3 : 35|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_resulttrust_bms2 : 31|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_resulttrust_bms1 : 27|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_resulttrust_bms0 : 23|4@0+ (1,0) [0|15] ""  SCU,BMS,HMI,VCU
+ SG_ charger_statustrust_bms3 : 19|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_statustrust_bms2 : 15|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_statustrust_bms1 : 11|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_statustrust_bms0 : 7|4@0+ (1,0) [0|15] ""  SCU,BMS,HMI,VCU
+ SG_ charger_controlmode_bms : 3|4@0- (1,0) [-8|7] ""  SCU,BMS,VCU
+
+BO_ 1283 CHARG_Faildem: 8 CHARGER
+ SG_ charger_cccvtimeupprotect : 31|4@0+ (1,0) [0|15] ""  SCU,BMS,HMI,VCU
+ SG_ charger_reversepolarity : 23|4@0+ (1,0) [0|15] ""  SCU,BMS,HMI,VCU
+ SG_ charger_prechargetimingprotect : 19|4@0+ (1,0) [0|15] ""  SCU,BMS,HMI,VCU
+ SG_ charger_overtemp : 15|4@0+ (1,0) [0|15] ""  SCU,BMS,HMI,VCU
+ SG_ charger_shortcircuit : 11|4@0+ (1,0) [0|15] ""  SCU,BMS,HMI,VCU
+ SG_ charger_overcurrent : 7|4@0+ (1,0) [0|15] ""  SCU,BMS,HMI,VCU
+ SG_ charger_overvoltage : 3|4@0+ (1,0) [0|15] ""  SCU,BMS,HMI,VCU
+
+BO_ 1284 CHARG_ConfigParallelPack: 6 CHARGER
+ SG_ charger_configSts_bms_pack4 : 47|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_configSts_bms_pack3 : 43|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_configSts_bms_pack2 : 39|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_configSts_bms_pack1 : 35|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_configReq_bms_pack4 : 31|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_configReq_bms_pack3 : 27|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_configReq_bms_pack2 : 23|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_configReq_bms_pack1 : 19|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_configInit_bms_pack4 : 15|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_configInit_bms_pack3 : 11|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_configInit_bms_pack2 : 7|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+ SG_ charger_configInit_bms_pack1 : 3|4@0+ (1,0) [0|15] ""  BMS,HMI,VCU
+
+BO_ 1031 BLE_Infoversion: 8 HMI
+ SG_ ble_Serialnumber : 55|16@0+ (1,0) [0|0] ""  SCU
+ SG_ ble_Manufacturedate : 39|16@0+ (1,0) [0|0] ""  SCU
+ SG_ ble_swmajor_version : 23|4@0+ (1,0) [0|0] ""  SCU
+ SG_ ble_swsubminor_version : 31|8@0+ (1,0) [0|0] ""  SCU
+ SG_ ble_bootmajor_version : 15|4@0+ (1,0) [0|0] ""  SCU
+ SG_ ble_swminor_version : 19|4@0+ (1,0) [0|0] ""  SCU
+ SG_ ble_bootminor_version : 11|4@0+ (1,0) [0|0] ""  SCU
+ SG_ ble_hardwareversion : 7|8@0+ (1,0) [0|0] ""  SCU
+
+BO_ 517 MCU_SyncTimeData: 8 MCU
+ SG_ mcu_sync_time_data : 7|64@0+ (1,0) [0|0] ""  VCU
+
+BO_ 1536 HMI_JIG_TEST_REQUEST: 2 PC
+ SG_ HMI_JIG_MODE : 15|4@0+ (1,0) [0|15] ""  HMI
+ SG_ HMI_JIG_TEST_CASE : 7|8@0+ (1,0) [0|255] ""  HMI
+
+BO_ 261 VCU_MCU_Command: 8 VCU
+ SG_ vcu_mcucomand : 7|64@0+ (1,0) [0|0] ""  MCU
+
+BO_ 259 VCU_Request_Command: 8 VCU
+ SG_ vcu_cmd_info_tbd : 39|32@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ vcu_cmd_info_param3 : 31|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ vcu_cmd_info_param2 : 23|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ vcu_cmd_info_param1 : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ vcu_changemode_req : 3|4@0+ (1,0) [0|0] ""  MCU
+ SG_ vcu_ignition_status : 7|4@0+ (1,0) [0|0] ""  HMI
+
+BO_ 307 VCU_SyncTimeData: 8 VCU
+ SG_ vcu_sync_time_data : 7|64@0+ (1,0) [0|0] ""  HMI,SCU
+
+BO_ 1940 SCU_Control_VCUData2: 8 SCU
+ SG_ scu_ctrl_vcu_data2 : 7|64@0+ (1,0) [0|0] ""  VCU
+
+BO_ 1939 SCU_Control_VCUData1: 8 SCU
+ SG_ scu_ctrl_vcu_data1 : 7|64@0+ (1,0) [0|0] ""  VCU
+
+BO_ 296 VCU_ErrorCodeCurrent: 8 VCU
+ SG_ vcu_current_err_param : 55|16@0+ (1,0) [0|0] ""  SCU
+ SG_ vcu_current_err_signal_id : 39|16@0+ (1,0) [0|0] ""  SCU,HMI
+ SG_ vcu_current_err_module_id : 31|4@0+ (1,0) [0|0] ""  SCU,HMI
+ SG_ vcu_current_err_priority : 27|4@0+ (1,0) [0|0] ""  SCU,HMI
+ SG_ vcu_current_err_code : 23|8@0+ (1,0) [0|0] ""  SCU,HMI
+ SG_ vcu_current_err_index : 15|8@0+ (1,0) [0|0] ""  SCU,HMI
+ SG_ vcu_current_err_number : 7|8@0+ (1,0) [0|0] ""  SCU,HMI
+
+BO_ 1030 HMI_ControlVCUData2: 8 HMI
+ SG_ hmi_ctrl_vcu_data2 : 7|64@0+ (1,0) [0|0] ""  VCU
+
+BO_ 1029 HMI_ControlVCUData1: 8 HMI
+ SG_ hmi_ctrl_vcu_data1 : 7|64@0+ (1,0) [0|0] ""  VCU
+
+BO_ 306 VCU_ControlData2: 8 VCU
+ SG_ vcu_control_data2 : 7|64@0+ (1,0) [0|0] ""  SCU,HMI
+
+BO_ 305 VCU_ControlData1: 8 VCU
+ SG_ vcu_control_data1 : 7|64@0+ (1,0) [0|0] ""  SCU,HMI
+
+BO_ 1028 HMI_ControlVCU: 2 HMI
+ SG_ hmi_sync_keytime_status : 3|2@0+ (1,0) [0|0] ""  VCU
+ SG_ hmi_smk_auth : 1|2@0+ (1,0) [0|1] ""  VCU
+ SG_ hmi_smartkey_command : 15|4@0+ (1,0) [0|1] ""  VCU
+ SG_ hmi_unlock_saddle : 5|2@0+ (1,0) [0|1] ""  VCU
+ SG_ hmi_vehicle_on_off : 7|2@0+ (1,0) [0|3] ""  VCU
+
+BO_ 1800 ESCL_Bolt_Status: 8 ESCL
+ SG_ escl_bolt_message_type : 8|8@1- (1,0) [0|0] ""  VCU
+ SG_ escl_boltstatus : 1|2@0+ (1,0) [0|4] ""  SCU,VCU,HMI
+
+BO_ 51 ABS_Status_Command: 8 ABS
+ SG_ abs_warning_lamp : 43|4@0- (1,0) [0|3] ""  VCU,HMI
+ SG_ abs_rear_speed_valid : 36|1@0- (1,0) [0|1] ""  VCU,HMI
+ SG_ abs_rear_speed : 23|16@0- (0.01,0) [0|40000] "kmph"  VCU,HMI
+ SG_ abs_rear_control_status : 32|1@0- (1,0) [0|1] ""  VCU,HMI
+ SG_ abs_front_speed_valid : 37|1@0- (1,0) [0|1] ""  VCU,HMI
+ SG_ abs_front_speed : 7|16@0- (0.01,0) [0|40000] "kmph"  VCU,HMI
+ SG_ abs_front_control_status : 33|1@0- (1,0) [0|1] ""  VCU,HMI
+
+BO_ 1929 SCU_RKEY_Setting: 8 SCU
+ SG_ scu_rkey_setting_sig : 0|1@0- (1,0) [0|0] ""  HMI
+
+BO_ 1922 SCU_Faildem: 8 SCU
+ SG_ scu_failtaccelerometer : 15|4@0+ (1,0) [0|0] ""  VCU
+ SG_ scu_failtbluetooth : 23|4@0+ (1,0) [0|0] ""  VCU
+ SG_ scu_warning_low_data_service : 7|4@0- (1,0) [0|0] ""  VCU
+ SG_ scu_failconnectserver : 19|4@0+ (1,0) [0|0] ""  VCU,HMI
+ SG_ scu_failbackupbattery : 11|4@0+ (1,0) [0|0] ""  VCU,HMI
+ SG_ scu_failflash : 3|4@0+ (1,0) [0|0] ""  VCU,HMI
+
+BO_ 1923 SCU_Control_VCU: 8 SCU
+ SG_ scu_setVehSpeed_UnBlock_Ltd : 39|8@0+ (1,0) [0|0] ""  VCU
+ SG_ scu_setVehSpeed_Block_Ltd : 31|8@0+ (1,0) [0|0] ""  VCU
+ SG_ scu_controlvcu_precharge : 19|4@0+ (1,0) [0|0] ""  VCU
+ SG_ scu_controlvcu_TBD1 : 21|2@0+ (1,0) [0|0] ""  VCU
+ SG_ scu_setBlockVehicle : 3|4@0+ (1,0) [0|1] ""  VCU
+ SG_ scu_SetTemperatureUnit : 15|2@0+ (1,0) [0|1] ""  VCU,HMI
+ SG_ scu_SetSpeedUnit : 11|2@0+ (1,0) [0|1] ""  VCU,HMI
+ SG_ scu_SetAutolight : 9|2@0+ (1,0) [0|1] ""  VCU,HMI
+ SG_ scu_ctrlvcu_command : 7|4@0- (1,0) [0|1] ""  VCU
+ SG_ scu_setvibration_en : 23|2@0+ (1,0) [0|1] ""  VCU,HMI
+ SG_ scu_SetTimeFormat : 13|2@0+ (1,0) [0|1] ""  VCU,HMI
+
+BO_ 1928 SCU_GPS5: 8 SCU
+ SG_ scu_gpsfix : 23|16@0- (1,0) [0|0] ""  HMI
+ SG_ scu_gpssig : 7|16@0- (1,0) [0|0] ""  HMI
+
+BO_ 1927 SCU_GPS4: 8 SCU
+ SG_ scu_gpsdir : 39|32@0- (1,0) [0|0] ""  HMI
+ SG_ scu_gpsspeed : 7|32@0- (1,0) [0|0] ""  HMI
+
+BO_ 1926 SCU_GPS3: 8 SCU
+ SG_ scu_gpshdop : 39|32@0- (1,0) [0|0] ""  HMI
+ SG_ scu_gpsvdop : 7|32@0- (1,0) [0|0] ""  HMI
+
+BO_ 1925 SCU_GPS2: 8 SCU
+ SG_ scu_gpspdop : 39|32@0- (1,0) [0|0] ""  HMI
+ SG_ scu_gpstimestamp : 7|32@0- (1,0) [0|0] ""  HMI
+
+BO_ 1924 SCU_GPS1: 8 SCU
+ SG_ scu_gpslatsignal : 7|32@0- (1,0) [0|0] ""  HMI
+ SG_ scu_gpslongsignal : 39|32@0- (1,0) [0|0] ""  HMI
+
+BO_ 1941 SCU_Timestamp: 8 SCU
+ SG_ scu_epochtimestamp : 7|32@0+ (1,0) [-1|0] ""  VCU,HMI
+
+BO_ 1921 SCU_Rollingcounter: 8 SCU
+ SG_ scu_rollingcounter_sig : 7|4@0- (1,0) [0|3] ""  HMI
+
+BO_ 1920 SCU_Infoversion: 8 SCU
+ SG_ scu_swsubminor_version : 31|8@0- (1,0) [0|0] ""  HMI
+ SG_ scu_swminor_version : 19|4@0- (1,0) [0|0] ""  HMI
+ SG_ scu_swmajor_version : 23|4@0- (1,0) [0|0] ""  HMI
+ SG_ scu_serialnumber : 48|16@1- (1,0) [0|0] ""  HMI
+ SG_ scu_Manufacturedate : 39|16@0- (1,0) [0|15] ""  HMI
+ SG_ scu_hardwareverision : 7|8@0- (1,0) [0|15] ""  HMI
+ SG_ scu_bootminor_version : 11|4@0+ (1,0) [0|15] ""  HMI
+ SG_ scu_bootmajor_version : 15|4@0+ (1,0) [0|1] ""  HMI
+
+BO_ 516 MCU_ABS: 8 MCU
+ SG_ mcu_motor_torque : 31|16@0- (1,0) [0|0] "Nm"  HMI
+ SG_ mcu_motor_rpm : 15|16@0- (1,0) [0|0] "rpm"  HMI
+ SG_ mcu_regenbrake_active : 2|1@0- (1,0) [0|1] ""  HMI
+ SG_ mcu_brake_switch_front : 1|1@0+ (1,0) [0|1] ""  HMI
+ SG_ mcu_brake_switch_rear : 0|1@0+ (1,0) [0|1] ""  HMI
+
+BO_ 260 VCU_ESCL_Command: 8 VCU
+ SG_ vcu_lockunlock_escl : 1|2@0+ (1,0) [0|4] ""  SCU,HMI,ESCL
+
+BO_ 273 VCU_ConfigParallelPack: 8 VCU
+ SG_ vcu_configInit_bms_pack4 : 23|4@0+ (1,0) [0|0] ""  BMS
+ SG_ vcu_configSts_bms_pack4 : 55|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_configSts_bms_pack3 : 51|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_configSts_bms_pack2 : 47|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_configSts_bms_pack1 : 43|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_configReq_bms_pack4 : 39|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_configReq_bms_pack3 : 35|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_configReq_bms_pack2 : 31|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_configReq_bms_pack1 : 27|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_configInit_bms_pack3 : 19|4@0+ (1,0) [0|0] ""  BMS
+ SG_ vcu_configInit_bms_pack2 : 15|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_configInit_bms_pack1 : 11|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_persentmaster_bms : 7|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_config_totalpackno : 3|4@0+ (1,0) [0|15] ""  BMS
+
+BO_ 264 VCU_SyncODO: 8 VCU
+ SG_ vcu_total_ODO : 7|32@0+ (1,0) [-1|0] ""  MCU
+
+BO_ 515 MCU_Request_ODO: 8 MCU
+ SG_ mcu_request_odo_sig : 7|8@0+ (1,0) [0|255] ""  VCU
+
+BO_ 1027 HMI_SensorInfo: 8 HMI
+ SG_ hmi_temperature : 7|8@0- (1,0) [-128|127] ""  SCU
+ SG_ hmi_light_sensor_status : 15|4@0+ (1,0) [0|15] ""  VCU
+
+BO_ 1026 HMI_Faildem: 8 HMI
+ SG_ hmi_fobbatterylow : 11|4@0- (1,0) [0|15] ""  VCU,SCU
+ SG_ hmi_fail_tempsensor : 15|4@0+ (1,0) [0|15] ""  VCU,SCU
+ SG_ hmi_fail_flasherror : 3|4@0+ (1,0) [0|15] ""  VCU,SCU
+ SG_ hmi_fail_canconnected : 7|4@0+ (1,0) [0|15] ""  VCU,SCU
+ SG_ hmi_failbluetooth : 23|4@0+ (1,0) [0|15] ""  VCU,SCU
+
+BO_ 271 VCU_Info: 8 VCU
+ SG_ vcu_info_reserve : 47|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ vcu_info_debug_parameter : 55|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ vcu_info_reset_type : 27|4@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ vcu_leadacid_chargstatus : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ vcu_info_dcdc_voltage : 23|8@0+ (1,0) [0|0] ""  SCU
+ SG_ vcu_info_dcdc_status : 31|4@0+ (1,0) [0|0] ""  SCU
+ SG_ vcu_info_acqui_voltage : 15|8@0+ (1,0) [0|0] ""  SCU
+ SG_ vcu_ignitionstatus_blg : 7|4@0+ (1,0) [0|15] ""  SCU
+ SG_ vcu_sendrollingcounter_blg : 3|4@0+ (1,0) [0|15] ""  SCU
+
+BO_ 295 VCU_Faildem: 8 VCU
+ SG_ vcu_fail_dcdc_enable : 63|4@0+ (1,0) [0|0] ""  HMI
+ SG_ vcu_dcdc_fail : 43|4@0+ (1,0) [0|15] ""  HMI
+ SG_ vcu_failconnectMCU : 47|4@0+ (1,0) [0|15] ""  HMI
+ SG_ vcu_failconnectHMI : 35|4@0+ (1,0) [0|15] ""  HMI
+ SG_ vcu_failconnectBMS : 39|4@0+ (1,0) [0|15] ""  HMI
+ SG_ vcu_failmcuprotect : 27|4@0+ (1,0) [0|15] ""  HMI
+ SG_ vcu_failturnlamp : 31|4@0+ (1,0) [0|15] ""  HMI
+ SG_ vcu_failtrustbattery : 19|4@0+ (1,0) [0|15] ""  HMI
+ SG_ vcu_failpositionlamp : 23|4@0+ (1,0) [0|15] ""  HMI
+ SG_ vcu_failheadlamp : 11|4@0+ (1,0) [0|15] ""  HMI
+ SG_ vcu_failflash : 15|4@0+ (1,0) [0|15] ""  HMI
+ SG_ vcu_fail_leadacid : 3|4@0+ (1,0) [0|15] ""  HMI
+ SG_ vcu_failaccelerometer : 7|4@0+ (1,0) [0|15] ""  HMI
+ SG_ vcu_vehicle_locking : 51|4@0+ (1,0) [0|15] ""  HMI
+ SG_ vcu_bms_locking : 55|4@0+ (1,0) [0|15] ""  HMI
+
+BO_ 268 VCU_Escooterstatus_hmi: 8 VCU
+ SG_ vcu_evstatus_hmi_tbd2 : 31|2@0+ (1,0) [0|0] ""  HMI
+ SG_ vcu_evstatus_hmi_tbd1 : 29|1@0+ (1,0) [0|0] ""  HMI
+ SG_ vcu_total_odo_hmi : 39|32@0+ (1,0) [0|0] ""  HMI
+ SG_ vcu_autolight_en : 19|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_setspeaker_hmi : 24|1@0+ (1,0) [0|1] ""  HMI
+ SG_ vcu_timeformat_hmi : 25|1@0+ (1,0) [0|1] ""  HMI
+ SG_ vcu_settemperatureunit_hmi : 26|1@0+ (1,0) [0|1] ""  HMI
+ SG_ vcu_turnrightlight_hmi : 3|4@0+ (1,0) [0|15] ""  HMI
+ SG_ vcu_turnleftlight_hmi : 7|4@0+ (1,0) [0|15] ""  HMI
+ SG_ vcu_farhaedlampon_hmi : 15|4@0+ (1,0) [0|15] ""  HMI
+ SG_ vcu_displayspeedunit_hmi : 27|1@0+ (1,0) [0|1] ""  HMI
+ SG_ vcu_charrgerstatus_hmi : 23|4@0+ (1,0) [0|15] ""  HMI
+ SG_ vcu_brakesignal_hmi : 11|4@0+ (1,0) [0|15] ""  HMI
+ SG_ vcu_smk_auth_hmi : 28|1@0+ (1,0) [0|0] ""  BMS
+
+BO_ 258 VCU_ControlSystems: 8 VCU
+ SG_ vcu_controlsystem_ctrl2 : 63|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ vcu_controlsystem_ctrl1 : 55|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ vcu_input_sw_luglight : 47|4@0+ (1,0) [0|0] ""  HMI,BMS
+ SG_ vcu_input_sw_mkey : 43|4@0+ (1,0) [0|0] ""  HMI,BMS
+ SG_ vcu_block_status : 27|4@0+ (1,0) [0|0] ""  MCU,SCU,HMI
+ SG_ vcu_current_state : 39|8@0+ (1,0) [0|0] ""  MCU,SCU,HMI
+ SG_ vcu_wheellock_active : 23|4@0+ (1,0) [0|0] ""  HMI,SCU,MCU
+ SG_ vcu_sidestandsignal : 15|4@0+ (1,0) [0|15] ""  SCU,HMI,MCU
+ SG_ vcu_chargingmode : 31|4@0+ (1,0) [0|15] ""  SCU,HMI,MCU
+ SG_ vcu_drivingmode : 3|4@0+ (1,0) [0|15] ""  SCU,HMI,MCU
+ SG_ vcu_evstatus : 7|4@0+ (1,0) [0|15] ""  SCU,HMI,MCU
+ SG_ vcu_vibrationen : 19|4@0+ (1,0) [0|15] ""  HMI,SCU
+ SG_ vcu_alarmactive : 11|4@0+ (1,0) [0|15] ""  SCU,HMI,MCU
+
+BO_ 257 VCU_Comrequest: 8 VCU
+ SG_ vcu_commreq_chg : 19|4@0+ (1,0) [0|15] ""  CHARGER
+ SG_ vcu_commrequired_scu : 11|4@0+ (1,0) [0|15] ""  SCU
+ SG_ vcu_commrequired_blg : 15|4@0+ (1,0) [0|0] ""  BMS
+ SG_ statusRollingCounter_CBOX : 23|4@0+ (1,0) [0|15] ""  SCU
+ SG_ vcu_commrequired_hmi : 3|4@0+ (1,0) [0|15] ""  HMI
+ SG_ vcu_commrequired_mcu : 7|4@0+ (1,0) [0|15] ""  MCU
+
+BO_ 256 VCU_Infoversion: 8 VCU
+ SG_ vcu_swsubminor_version : 31|8@0+ (1,0) [0|15] ""  SCU,CHARGER
+ SG_ vcu_swminor_version : 19|4@0+ (1,0) [0|15] ""  SCU,CHARGER
+ SG_ vcu_swmajor_version : 23|4@0+ (1,0) [0|15] ""  SCU,CHARGER
+ SG_ vcu_hardware_version : 7|8@0+ (1,0) [0|15] ""  SCU,CHARGER
+ SG_ vcu_bootminor_version : 11|4@0+ (1,0) [0|15] ""  SCU,CHARGER
+ SG_ vcu_bootmajor : 15|4@0+ (1,0) [0|15] ""  SCU,CHARGER
+ SG_ vcu_Serialnumber : 55|16@0+ (1,0) [0|65535] ""  SCU,CHARGER
+ SG_ vcu_manufacturedate : 39|16@0+ (1,0) [0|65535] ""  SCU,CHARGER
+
+BO_ 1025 HMI_Rollingcounter: 8 HMI
+ SG_ hmi_rollingcounter_sig : 7|4@0+ (1,0) [0|15] ""  VCU
+
+BO_ 1024 HMI_Infoversion: 8 HMI
+ SG_ hmi_swsubminor_version : 31|8@0+ (1,0) [0|15] ""  SCU
+ SG_ hmi_swminor_version : 19|4@0+ (1,0) [0|15] ""  SCU
+ SG_ hmi_swmajor_version : 23|4@0+ (1,0) [0|15] ""  SCU
+ SG_ hmi_hardwareversion : 7|8@0+ (1,0) [0|15] ""  SCU
+ SG_ hmi_bootminor_version : 11|4@0+ (1,0) [0|15] ""  SCU
+ SG_ hmi_bootmajor_version : 15|4@0+ (1,0) [0|15] ""  SCU
+ SG_ hmi_Serialnumber : 55|16@0+ (1,0) [0|65535] ""  SCU
+ SG_ hmi_Manufacturedate : 39|16@0+ (1,0) [0|65535] ""  SCU
+
+BO_ 514 MCU_Faildem: 8 MCU
+ SG_ mcu_motortempsensorfail : 55|4@0+ (1,0) [0|0] ""  VCU
+ SG_ mcu_motoroverheat : 47|4@0+ (1,0) [0|0] ""  VCU
+ SG_ mcu_brake_fault : 35|4@0+ (1,0) [0|1] ""  HMI,VCU
+ SG_ mcu_tempsensorfail : 27|4@0+ (1,0) [0|1] ""  VCU,HMI
+ SG_ mcu_eeromfail : 39|4@0+ (1,0) [0|1] ""  VCU,HMI
+ SG_ mcu_overvoltprotect : 3|4@0+ (1,0) [0|1] ""  HMI,VCU
+ SG_ mcu_undervoltprotection : 7|4@0+ (1,0) [0|1] ""  HMI,VCU
+ SG_ mcu_throttleprotect : 43|4@0+ (1,0) [0|1] ""  HMI,VCU
+ SG_ mcu_stallingprotect : 15|4@0+ (1,0) [0|1] ""  HMI,VCU
+ SG_ mcu_selfcheckfail : 23|4@0+ (1,0) [0|1] ""  HMI,VCU
+ SG_ mcu_overheat : 11|4@0+ (1,0) [0|1] ""  HMI,VCU
+ SG_ mcu_overcurrent : 31|4@0+ (1,0) [0|1] ""  HMI,VCU
+ SG_ mcu_hallsensorfail : 19|4@0+ (1,0) [0|1] ""  HMI,VCU
+
+BO_ 513 MCU_Infostatus: 8 MCU
+ SG_ mcu_changemode_ack : 51|4@0+ (1,0) [0|0] ""  VCU
+ SG_ mcu_mode : 59|4@0+ (1,0) [0|0] ""  SCU,VCU
+ SG_ mcu_totalODO : 23|32@0+ (1,0) [-1|0] ""  SCU,VCU,HMI
+ SG_ mcu_brakesignal : 63|4@0+ (1,0) [0|15] ""  SCU,HMI,VCU
+ SG_ mcu_powerrate : 55|4@0- (1,0) [-128|127] ""  SCU,HMI,VCU
+ SG_ mcu_speedkmh : 7|16@0+ (1,0) [0|65535] ""  SCU,HMI,VCU
+
+BO_ 512 MCU_InfoVersion: 8 MCU
+ SG_ mcu_hardware_version : 7|8@0+ (1,0) [0|15] ""  SCU
+ SG_ mcu_swsubminor_version : 31|8@0+ (1,0) [0|15] ""  SCU
+ SG_ mcu_swminor_Version : 19|4@0+ (1,0) [0|15] ""  SCU
+ SG_ mcu_swmajor_version : 23|4@0+ (1,0) [0|15] ""  SCU
+ SG_ mcu_bootminor_version : 11|4@0+ (1,0) [0|15] ""  SCU
+ SG_ mcu_bootmajor_version : 15|4@0+ (1,0) [0|15] ""  SCU
+ SG_ mcu_serialnumber : 55|16@0+ (1,0) [0|65535] ""  SCU
+ SG_ mcu_manufacturedate : 39|16@0+ (1,0) [0|65535] ""  SCU
+
+BO_ 272 VCU_ControlBMS: 6 VCU
+ SG_ vcu_control_BMS_shutdown : 43|4@0+ (1,0) [0|0] ""  BMS
+ SG_ vcu_controloffpfet_bms : 47|4@0+ (1,0) [0|15] ""  SCU,BMS
+ SG_ vcu_resulttrust_bms3 : 39|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_resulttrust_bms2 : 35|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_resulttrust_bms1 : 31|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_resulttrust_bms0 : 27|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_statustrust_bms3 : 23|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_statustrust_bms2 : 19|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_statustrust_bms1 : 15|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_statustrust_bms0 : 11|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_controlmode_bms : 7|4@0+ (1,0) [0|15] ""  BMS
+ SG_ vcu_control_TBD1 : 3|4@0+ (1,0) [0|15] ""  CHARGER,BMS
+
+BO_ 2 BMS_ISO_Message: 8 BMS
+ SG_ bms_iso_signal : 7|64@0+ (1,0) [0|1.8446744074E+019] ""  CHARGER,SCU,VCU
+
+BO_ 768 BMS_ControlSystem: 8 BMS
+ SG_ bms_controlSysMaxChgCurrent : 7|16@0- (0.02,0) [-655|655] "A"  CHARGER
+ SG_ bms_controlSysMaxDsgCurrent : 23|16@0- (0.02,0) [-655|655] "A"  CHARGER
+ SG_ bms_controlSysMaxChgPower : 39|16@0- (1,0) [-32767|32767] "W"  CHARGER
+ SG_ bms_controlSysMaxDsgPower : 55|16@0- (1,0) [-32767|32767] "W"  CHARGER
+
+BO_ 769 BMS_InfoCharging: 8 BMS
+ SG_ bms_chargingVoltageLimit : 7|16@0+ (0.002,0) [0|131.07] "V"  CHARGER
+ SG_ bms_chargingCurrentLimit : 23|16@0- (0.02,0) [-655|655] "A"  CHARGER
+ SG_ bms_chargingFullyChargedSts : 39|4@0+ (1,0) [0|15] ""  CHARGER
+ SG_ bms_controlModeCharger : 35|4@0+ (1,0) [0|15] ""  CHARGER
+ SG_ bms_endCurrentCharge : 47|8@0+ (1,0) [0|255] ""  CHARGER
+ SG_ bms_trickleCurrentCharger : 55|8@0+ (1,0) [0|255] ""  CHARGER
+ SG_ bms_chargingDiagCharger : 63|8@0+ (1,0) [0|255] ""  CHARGER
+
+BO_ 771 BMS_InfoBms: 8 BMS
+ SG_ bms_wakeupSource : 63|8@0+ (1,0) [0|256] ""  SCU,VCU
+ SG_ bms_statusIgnitionRecognition : 7|4@0+ (1,0) [0|15] ""  CHARGER
+ SG_ bms_statusRollingCounter : 3|4@0+ (1,0) [0|15] ""  CHARGER
+ SG_ bms_statusBmsUserMode : 15|4@0+ (1,0) [0|15] ""  CHARGER,VCU
+ SG_ bms_statusBmsOpState : 11|4@0+ (1,0) [0|15] ""  CHARGER
+ SG_ bms_statusCurrentDirection : 23|8@0+ (1,0) [0|255] ""  CHARGER
+ SG_ bms_stsDiagCellTopPriorResult : 31|8@0+ (1,0) [0|255] ""  CHARGER
+ SG_ bms_stsRentalFuncEnable : 39|4@0+ (1,0) [0|15] ""  CHARGER
+ SG_ bms_stsAuthFuncEnable : 35|4@0+ (1,0) [0|15] ""  CHARGER
+
+BO_ 772 BMS_InfoCellBalancing1: 6 BMS
+ SG_ bms_statusCB12 : 47|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms_statusCB11 : 43|4@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ bms_statusCB10 : 39|4@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ bms_statusCB09 : 35|4@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ bms_statusCB02 : 7|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms_statusCB01 : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms_statusCB04 : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms_statusCB03 : 11|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms_statusCB06 : 23|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms_statusCB05 : 19|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms_statusCB08 : 31|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms_statusCB07 : 27|4@0+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 773 BMS_InfoCellBalancing2: 8 BMS
+ SG_ bms_statusCB22 : 39|4@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ bms_statusCB21 : 35|4@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ bms_statusCB20 : 31|4@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ bms_statusCB19 : 27|4@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ bms_statusCB18 : 23|4@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ bms_statusCB17 : 19|4@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ bms_statusCB16 : 15|4@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ bms_statusCB15 : 11|4@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ bms_statusCB14 : 7|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms_statusCB13 : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 774 BMS_InfoDemCell: 8 BMS
+ SG_ bms_demOverVoltageCell : 7|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+ SG_ bms_demOverVoltagePack : 3|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+ SG_ bms_demUnderVoltageCell : 15|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+ SG_ bms_demUnderVoltagePack : 11|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+ SG_ bms_demOverCurrentChg : 23|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+ SG_ bms_demOverCurrentDis : 19|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+ SG_ bms_demOverTemperatureChg : 31|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+ SG_ bms_demOverTemperatureDis : 27|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+ SG_ bms_demUnderTemperatureChg : 39|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+ SG_ bms_demUnderTemperatureDis : 35|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+ SG_ bms_demImbCellChg : 47|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+ SG_ bms_demImbCellRest : 43|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+ SG_ bms_demImbCellTemperature : 55|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+ SG_ bms_demImbCellSOC : 51|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+
+BO_ 775 BMS_InfoDemCellFaultCount1: 8 BMS
+ SG_ bms_demOverVoltageCellCount : 7|8@0+ (1,0) [0|255] ""  HMI,SCU
+ SG_ bms_demUnderVoltageCellCount : 15|8@0+ (1,0) [0|255] ""  HMI,SCU
+ SG_ bms_demOverCurrentChgCount : 23|8@0+ (1,0) [0|255] ""  HMI,SCU
+ SG_ bms_demOverCurrentDisCount : 31|8@0+ (1,0) [0|255] ""  HMI,SCU
+ SG_ bms_demOverTemperatureChgCount : 39|8@0+ (1,0) [0|255] ""  HMI,SCU
+ SG_ bms_demUnderTemperatureChgCount : 47|8@0+ (1,0) [0|255] ""  HMI,SCU
+ SG_ bms_demOverTemperatureDisCount : 55|8@0+ (1,0) [0|255] ""  HMI,SCU
+ SG_ bms_demUnderTemperatureDisCount : 63|8@0+ (1,0) [0|255] ""  HMI,SCU
+
+BO_ 776 BMS_InfoDemCellFaultCount2: 6 BMS
+ SG_ bms_demImbCellChgCount : 7|8@0+ (1,0) [0|255] ""  HMI,SCU
+ SG_ bms_demImbCellRestCount : 15|8@0+ (1,0) [0|255] ""  HMI,SCU
+ SG_ bms_demImbCellTemperatureCount : 23|8@0+ (1,0) [0|255] ""  HMI,SCU
+ SG_ bms_demOverVoltagePackCount : 31|8@0+ (1,0) [0|255] ""  HMI,SCU
+ SG_ bms_demUnderVoltagePackCount : 39|8@0+ (1,0) [0|255] ""  HMI,SCU
+ SG_ bms_demImbCellSOCCount : 47|8@0+ (1,0) [0|255] ""  HMI,SCU
+
+BO_ 777 BMS_InfoPack: 8 BMS
+ SG_ bms_statusPowerCFET : 7|4@0+ (1,0) [0|15] ""  SCU,VCU,HMI,CHARGER
+ SG_ bms_statusPowerDFET : 3|4@0+ (1,0) [0|15] ""  SCU,VCU,HMI,CHARGER
+ SG_ bms_statusLowCapacityAlarm : 15|4@0+ (1,0) [0|15] ""  SCU,HMI,CHARGER
+ SG_ bms_statusPrechargeFET : 11|4@0+ (1,0) [0|15] ""  SCU,HMI,CHARGER
+ SG_ bms_statusPackVoltageBAT : 23|16@0+ (0.002,0) [0|131.07] "V"  SCU,HMI,CHARGER
+ SG_ bms_statusTBD1 : 39|16@0+ (1,0) [0|65535] ""  SCU,HMI,CHARGER
+ SG_ bms_statusPackCurrent : 55|16@0- (0.02,0) [-150|150] "A"  SCU,HMI,CHARGER
+
+BO_ 778 BMS_InfoSox: 8 BMS
+ SG_ bms_socFullChargeCapacityAh : 7|8@0+ (0.1,0) [0|25.5] "Ah"  HMI,SCU,VCU,CHARGER
+ SG_ bms_socRemainingCapacityAh : 15|8@0+ (0.1,0) [0|25.5] "Ah"  HMI,SCU,VCU,CHARGER
+ SG_ bms_socRSOC : 23|8@0+ (1,0) [0|255] "%"  HMI,SCU,VCU,CHARGER
+ SG_ bms_socSOH : 31|8@0+ (1,0) [0|255] "%"  HMI,SCU,VCU,CHARGER
+ SG_ bms_socCycleCount : 39|16@0+ (1,0) [0|65535] ""  HMI,SCU,VCU,CHARGER
+ SG_ bms_socRemainingChargingTime : 55|16@0+ (1,0) [0|65535] "min"  HMI,SCU,VCU,CHARGER
+
+BO_ 779 BMS_InfoAccumDsgChgCapacity: 8 BMS
+ SG_ bms_AccumChargeCapacityAh : 7|32@0+ (1,0) [-1|0] "Ah"  HMI,SCU
+ SG_ bms_AccumDischargeCapacityAh : 39|32@0+ (1,0) [-1|0] "Ah"  HMI,SCU
+
+BO_ 780 BMS_InfoDemAsic: 8 BMS
+ SG_ bms_demAsicOverVoltage : 7|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+ SG_ bms_demAsicUnderVoltage : 3|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+ SG_ bms_demAsicOverCurrentDis : 15|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+ SG_ bms_demAsicShortCurrent : 11|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+ SG_ bms_demAsicDeviceXReady : 23|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+ SG_ bms_demAsicOverRide : 19|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+
+BO_ 781 BMS_InfoDemAsicFaultCount: 8 BMS
+ SG_ bms_demAsicOverVoltageCount : 7|8@0+ (1,0) [0|255] ""  HMI,SCU
+ SG_ bms_demAsicUnderVoltageCount : 15|8@0+ (1,0) [0|255] ""  HMI,SCU
+ SG_ bms_demAsicOverCurrentDisCount : 23|8@0+ (1,0) [0|255] ""  HMI,SCU
+ SG_ bms_demAsicShortCurrentCount : 31|8@0+ (1,0) [0|255] ""  HMI,SCU
+ SG_ bms_demAsicDeviceXReadyCount : 39|8@0+ (1,0) [0|255] ""  HMI,SCU
+ SG_ bms_demAsicOverRideCount : 47|8@0+ (1,0) [0|255] ""  HMI,SCU
+
+BO_ 784 BMS_InfoVoltageCell: 8 BMS
+ SG_ bms_statusVoltageCellMax : 47|16@0+ (0.0001,0) [0|6.5535] "V"  VCU
+ SG_ bms_statusVoltageCellAvg : 7|16@0+ (0.0001,0) [0|6.5535] "V"  HMI
+ SG_ bms_statusVoltageCellMin : 23|16@0+ (0.0001,0) [0|6.5535] "V"  SCU,HMI
+ SG_ bms_statusVoltageCellMinNo : 39|8@0+ (1,0) [0|255] "Bank"  HMI
+ SG_ bms_statusVoltageCellMaxNo : 63|8@0+ (1,0) [0|255] "Bank"  HMI
+
+BO_ 785 BMS_InfoVoltageCell1: 8 BMS
+ SG_ bms_statusVoltageCell01 : 7|16@0+ (0.0001,0) [0|6.5535] "V"  CHARGER
+ SG_ bms_statusVoltageCell02 : 23|16@0+ (0.0001,0) [0|6.5535] "V"  CHARGER
+ SG_ bms_statusVoltageCell03 : 39|16@0+ (0.0001,0) [0|6.5535] "V"  CHARGER
+ SG_ bms_statusVoltageCell04 : 55|16@0+ (0.0001,0) [0|6.5535] "V"  CHARGER
+
+BO_ 786 BMS_InfoVoltageCell2: 8 BMS
+ SG_ bms_statusVoltageCell05 : 7|16@0+ (0.0001,0) [0|6.5535] "V"  CHARGER
+ SG_ bms_statusVoltageCell06 : 23|16@0+ (0.0001,0) [0|6.5535] "V"  CHARGER
+ SG_ bms_statusVoltageCell07 : 39|16@0+ (0.0001,0) [0|6.5535] "V"  CHARGER
+ SG_ bms_statusVoltageCell08 : 55|16@0+ (0.0001,0) [0|6.5535] "V"  CHARGER
+
+BO_ 787 BMS_InfoVoltageCell3: 8 BMS
+ SG_ bms_statusVoltageCell09 : 7|16@0+ (0.0001,0) [0|6.5535] "V"  CHARGER
+ SG_ bms_statusVoltageCell10 : 23|16@0+ (0.0001,0) [0|6.5535] "V"  CHARGER
+ SG_ bms_statusVoltageCell11 : 39|16@0+ (0.0001,0) [0|6.5535] "V"  CHARGER
+ SG_ bms_statusVoltageCell12 : 55|16@0+ (0.0001,0) [0|6.5535] "V"  CHARGER
+
+BO_ 788 BMS_InfoVoltageCell4: 8 BMS
+ SG_ bms_statusVoltageCell15 : 39|16@0+ (0.0001,0) [0|6.5535] "" Vector__XXX
+ SG_ bms_statusVoltageCell16 : 55|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ bms_statusVoltageCell13 : 7|16@0+ (0.0001,0) [0|6.5535] "V"  CHARGER
+ SG_ bms_statusVoltageCell14 : 23|16@0+ (0.0001,0) [0|6.5535] "V"  CHARGER
+
+BO_ 789 BMS_InfoDemBMS: 8 BMS
+ SG_ bms_demBMSCFET : 7|4@0+ (1,0) [0|15] ""  VCU
+ SG_ bms_demBMSDFET : 3|4@0+ (1,0) [0|15] ""  VCU
+ SG_ bms_demBMSPFET : 15|4@0+ (1,0) [0|15] ""  VCU
+ SG_ bms_demBMSASICComm : 11|4@0+ (1,0) [0|15] ""  VCU
+ SG_ bms_demBMSASICShutdown : 23|4@0+ (1,0) [0|15] ""  VCU
+ SG_ bms_demBMSPFET2 : 19|4@0+ (1,0) [0|15] ""  VCU
+
+BO_ 790 BMS_InfoDemBMSFaultCount: 8 BMS
+ SG_ bms_demBMSCFETCount : 7|8@0+ (1,0) [0|255] ""  CHARGER
+ SG_ bms_demBMSDFETCount : 15|8@0+ (1,0) [0|255] ""  CHARGER
+ SG_ bms_demBMSPFETCount : 23|8@0+ (1,0) [0|255] ""  CHARGER
+ SG_ bms_demBMSASICCommCount : 31|8@0+ (1,0) [0|255] ""  CHARGER
+ SG_ bms_demBMSASICShutdownCount : 39|8@0+ (1,0) [0|255] ""  CHARGER
+ SG_ bms_demBMSPFET2Count : 47|8@0+ (1,0) [0|255] ""  CHARGER
+
+BO_ 791 BMS_InfoDemPack: 4 BMS
+ SG_ bms_demConStuckClosed : 23|4@0+ (1,0) [0|0] ""  SCU,VCU
+ SG_ bms_demConStuckOpen : 19|4@0+ (1,0) [0|15] ""  HMI,SCU,VCU
+ SG_ bms_demPackFuseBlow : 7|4@0+ (1,0) [0|15] ""  VCU,SCU,HMI
+ SG_ bms_demPackFuseResistance : 3|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+ SG_ bms_demPackFuseOverCurrent : 15|4@0+ (1,0) [0|15] ""  VCU,SCU,HMI
+ SG_ bms_demPackFETTemperature : 11|4@0+ (1,0) [0|15] ""  VCU,HMI,SCU
+
+BO_ 792 BMS_InfoDemPackFaultCount: 6 BMS
+ SG_ bms_demConStuckOpenCount : 47|8@0+ (1,0) [0|0] ""  SCU,VCU
+ SG_ bms_demConStuckClosedCount : 39|8@0+ (1,0) [0|0] ""  SCU,VCU
+ SG_ bms_demPackFuseBlowCount : 7|8@0+ (1,0) [0|255] ""  SCU,HMI
+ SG_ bms_demPackFuseResistanceCount : 15|8@0+ (1,0) [0|255] ""  HMI,SCU
+ SG_ bms_demPackFuseOverCurrentCount : 23|8@0+ (1,0) [0|255] ""  SCU,HMI
+ SG_ bms_demPackFETTemperatureCount : 31|8@0+ (1,0) [0|255] ""  HMI,SCU
+
+BO_ 793 BMS_InfoMileage: 8 BMS
+ SG_ bms_mileage_data : 7|32@0+ (1,0) [-1|0] ""  SCU,HMI
+ SG_ bms_mileageTBD1 : 39|32@0+ (1,0) [-1|0] ""  SCU,HMI
+
+BO_ 800 BMS_InfoTemperatureCell: 8 BMS
+ SG_ bms_statusTemperatureCellAvg : 7|8@0- (1,0) [-127|127] "กษ"  HMI
+ SG_ bms_statusTemperatureCellMin : 15|8@0- (1,0) [-127|127] "กษ"  SCU,HMI
+ SG_ bms_statusTemperatureCellMinNo : 23|8@0+ (1,0) [0|255] "Th"  HMI
+ SG_ bms_statusTemperatureCellMax : 31|8@0- (1,0) [-127|127] "กษ"  SCU,HMI
+ SG_ bms_statusTemperatureCellMaxNo : 39|8@0+ (1,0) [0|255] "Th"  HMI
+
+BO_ 801 BMS_InfoTemperatureCell1: 4 BMS
+ SG_ bms_statusTemperatureCell4 : 31|8@0- (1,0) [-127|127] ""  SCU,VCU
+ SG_ bms_statusTemperatureCell1 : 7|8@0- (1,0) [-127|127] "กษ"  HMI
+ SG_ bms_statusTemperatureCell2 : 15|8@0- (1,0) [-127|127] "กษ"  HMI
+ SG_ bms_statusTemperatureCell3 : 23|8@0- (1,0) [-127|127] "กษ"  HMI
+
+BO_ 802 BMS_InfoTemperaturePack: 8 BMS
+ SG_ bms_statusTemperatureCB1 : 7|8@0- (1,0) [-127|127] "กษ"  HMI
+ SG_ bms_statusTemperatureCB2 : 15|8@0- (1,0) [-127|127] "กษ"  HMI
+ SG_ bms_statusTemperatureFET1 : 23|8@0- (1,0) [-127|127] "กษ"  HMI
+ SG_ bms_statusTemperatureFET2 : 31|8@0- (1,0) [-127|127] "กษ"  HMI
+
+BO_ 803 BMS_RentalInfoRemainTime: 8 BMS
+ SG_ bms_rentalinfo_remaintime : 7|32@0+ (1,0) [-1|0] "" Vector__XXX
+ SG_ bms_rentalinfo_bonustime : 39|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ bms_rentalinfo_expired : 55|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms_rentalinfoTBD1 : 51|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ bms_rentalinfoTBD2 : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 804 BMS_RentalInfoCustomer1: 8 BMS
+ SG_ bms_rentalinfo_customer1 : 7|32@0+ (1,0) [-1|0] "" Vector__XXX
+ SG_ bms_rentalinfo_customer12 : 39|32@0+ (1,0) [-1|0] "" Vector__XXX
+
+BO_ 805 BMS_RentalInfoCustomer2: 8 BMS
+ SG_ bms_rentalinfo_customer2 : 7|32@0+ (1,0) [-1|0] "" Vector__XXX
+ SG_ bms_rentalinfo_customer22 : 39|32@0+ (1,0) [-1|0] "" Vector__XXX
+
+BO_ 806 BMS_TrustInfo: 8 BMS
+ SG_ bms_statustrust_bms1charger : 7|4@0+ (1,0) [0|15] ""  MCU,VCU,CHARGER
+ SG_ bms_statustrust_bms0charger : 3|4@0+ (1,0) [0|15] ""  MCU,VCU,CHARGER
+ SG_ bms_statustrust_bms3charger : 15|4@0+ (1,0) [0|15] ""  MCU,VCU,CHARGER
+ SG_ bms_statustrust_bms2charger : 11|4@0+ (1,0) [0|15] ""  MCU,VCU,CHARGER
+ SG_ bms_resulttrust_bms1charger : 23|4@0+ (1,0) [0|15] ""  MCU,VCU,CHARGER
+ SG_ bms_resulttrust_bms0charger : 19|4@0+ (1,0) [0|15] ""  MCU,VCU,CHARGER
+ SG_ bms_resulttrust_bms3charger : 31|4@0+ (1,0) [0|15] ""  MCU,VCU,CHARGER
+ SG_ bms_resulttrust_bms2charger : 27|4@0+ (1,0) [0|15] ""  MCU,VCU,CHARGER
+ SG_ bms_statustrust_bms1cbox : 39|4@0+ (1,0) [0|15] ""  MCU,VCU,CHARGER
+ SG_ bms_statustrust_bms0cbox : 35|4@0+ (1,0) [0|15] ""  MCU,VCU,CHARGER
+ SG_ bms_statustrust_bms3cbox : 47|4@0+ (1,0) [0|15] ""  MCU,VCU,CHARGER
+ SG_ bms_statustrust_bms2cbox : 43|4@0+ (1,0) [0|15] ""  MCU,VCU,CHARGER
+ SG_ bms_resulttrust_bms1cbox : 55|4@0+ (1,0) [0|15] ""  MCU,VCU,CHARGER
+ SG_ bms_resulttrust_bms0cbox : 51|4@0+ (1,0) [0|15] ""  MCU,VCU,CHARGER
+ SG_ bms_resulttrust_bms3cbox : 63|4@0+ (1,0) [0|15] ""  MCU,VCU,CHARGER
+ SG_ bms_resulttrust_bms2cbox : 59|4@0+ (1,0) [0|15] ""  MCU,VCU,CHARGER
+
+BO_ 807 BMS_InfoDemParallel: 8 BMS
+ SG_ bms_demParallelOvrdSlave : 7|4@0+ (1,0) [0|15] ""  VCU,CHARGER
+ SG_ bms_demParallelOvrdMaster : 3|4@0+ (1,0) [0|15] ""  VCU,CHARGER
+ SG_ bms_demParallelDiffVoltage : 15|4@0+ (1,0) [0|15] ""  VCU,CHARGER
+ SG_ bms_demParallelDiffCurrent : 11|4@0+ (1,0) [0|15] ""  VCU,CHARGER
+ SG_ bms_demParallelDiffSOC : 23|4@0+ (1,0) [0|15] ""  VCU,CHARGER
+ SG_ bms_demParallelDiffTemp : 19|4@0+ (1,0) [0|15] ""  VCU,CHARGER
+ SG_ bms_demParallelDiffVer : 31|4@0+ (1,0) [0|15] ""  VCU,CHARGER
+ SG_ bms_demParallelDiffSOH : 27|4@0+ (1,0) [0|15] ""  VCU,CHARGER
+
+BO_ 816 BMS_ParallelStatus: 8 BMS
+ SG_ bms_statusID : 7|4@0+ (1,0) [0|15] ""  VCU,CHARGER
+ SG_ bms_statusISOTPID : 3|4@0+ (1,0) [0|15] ""  VCU,CHARGER
+ SG_ bms_statusPackTimeout : 15|4@0+ (1,0) [0|15] ""  VCU,CHARGER
+ SG_ bms_statusMasterAuthSync : 11|4@0+ (1,0) [0|15] ""  VCU,CHARGER
+ SG_ bms_statusParallelTBD1 : 23|4@0+ (1,0) [0|15] ""  VCU,CHARGER
+ SG_ bms_statusParallelDiagPack1 : 19|4@0+ (1,0) [0|15] ""  VCU,CHARGER
+ SG_ bms_statusParallelDiagPack0 : 31|4@0+ (1,0) [0|15] ""  VCU,CHARGER
+
+BO_ 831 BMS_InfoPackVersion: 8 BMS
+ SG_ bms_versionSoftwareMinor : 7|4@0+ (1,0) [0|15] ""  SCU,VCU,CHARGER
+ SG_ bms_versionSoftwareSubminor : 3|4@0+ (1,0) [0|15] ""  SCU,VCU,CHARGER
+ SG_ bms_versionBootloaderMajor : 15|4@0+ (1,0) [0|15] ""  SCU,VCU,CHARGER
+ SG_ bms_versionSoftwareMajor : 11|4@0+ (1,0) [0|15] ""  SCU,VCU,CHARGER
+ SG_ bms_versionBootloaderMinor : 23|4@0+ (1,0) [0|15] ""  SCU,VCU,CHARGER
+ SG_ bms_versionBootloaderSubminor : 19|4@0+ (1,0) [0|15] ""  SCU,VCU,CHARGER
+ SG_ bms_versionHardwareMajor : 31|4@0+ (1,0) [0|15] ""  SCU,VCU,CHARGER
+ SG_ bms_versionTBD1 : 27|4@0+ (1,0) [0|15] ""  SCU,VCU,CHARGER
+ SG_ bms_versionManufacturerDate : 39|16@0+ (1,0) [0|65535] ""  SCU,VCU,CHARGER
+ SG_ bms_versionManufacturerSerialNo : 55|16@0+ (1,0) [0|65535] ""  SCU,VCU,CHARGER
+
+BO_ 1762 BMS_CtrlResp_FRP: 8 BMS
+ SG_ frqReqSubIndex_bms : 3|20@0- (1,0) [0|0] ""  Tester
+ SG_ frpReqIndex_bms : 7|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ frpReqData1_bms : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ frpReqData2_bms : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ frpReqData3_bms : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ frpReqData4_bms : 55|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ frpReqData5_bms : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+
+
+CM_ BU_ VCU "Vehicle control unit (Suzuki)";
+CM_ BU_ BMS "48V Battery Module Master (LGC)";
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+CM_ SG_ 3221225472 bms1_iso_signal "Signal use for ISO15765 of BMS1";
+CM_ SG_ 3221225472 bms0_controlSysMaxChgCurrent "System Available max charging current value.";
+CM_ SG_ 3221225472 bms0_controlSysMaxDsgCurrent "System Available max discharging current value.";
+CM_ SG_ 3221225472 bms0_controlSysMaxChgPower "System Available max charging power value.";
+CM_ SG_ 3221225472 bms0_controlSysMaxDsgPower "System Available max discharging power value.";
+CM_ SG_ 3221225472 bms0_chargingVoltageLimit "Voltage limitation value for charging (in case of fault, this value will be zero)";
+CM_ SG_ 3221225472 bms0_chargingCurrentLimit "Current limitation value for charging (in case of fault, this value will be zero)";
+CM_ SG_ 3221225472 bms0_chargingFullyChargedSts "Fully charged status. ";
+CM_ SG_ 3221225472 bms0_chargingTBD1 "TBD";
+CM_ SG_ 3221225472 bms0_chargingTBD2 "TBD";
+CM_ SG_ 3221225472 bms0_chargingTBD3 "TBD";
+CM_ SG_ 3221225472 bms0_chargingDiagCharger "DiagCharger";
+CM_ SG_ 3221225472 bms0_statusIgnitionRecognition "Status that BMS recognizes ignition pin";
+CM_ SG_ 3221225472 bms0_statusRollingCounter "0,1,2,3 -> 0,1,2,3.   It is rolling count means to BMS processing is well.  It will stop counting, if BMS processing gets stuck";
+CM_ SG_ 3221225472 bms0_statusBmsUserMode "User mode of the battery pack.";
+CM_ SG_ 3221225472 bms0_statusBmsOpState "Operation mode of the battery pack.";
+CM_ SG_ 3221225472 bms0_statusCurrentDirection "Current(Amps) Direction";
+CM_ SG_ 3221225472 bms0_stsDiagCellTopPriorResult "Most Severe Cell Diagnosis Result based on priority of diagnosis item and diagnosis level.";
+CM_ SG_ 3221225472 bms0_stsRentalFuncEnable "Rental Function Enable";
+CM_ SG_ 3221225472 bms0_stsAuthFuncEnable "Authentication Function Enable";
+CM_ SG_ 3221225472 bms0_statusCB02 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms0_statusCB01 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms0_statusCB04 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms0_statusCB03 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms0_statusCB06 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms0_statusCB05 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms0_statusCB08 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms0_statusCB07 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms0_statusCB10 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms0_statusCB09 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms0_statusCB12 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms0_statusCB11 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms0_statusCB14 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms0_statusCB13 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms0_demOverVoltageCell "Diagnosis - Over voltage Cell.";
+CM_ SG_ 3221225472 bms0_demOverVoltagePack "Diagnosis - Over voltage Pack.";
+CM_ SG_ 3221225472 bms0_demUnderVoltageCell "Diagnosis - Under voltage Cell.";
+CM_ SG_ 3221225472 bms0_demUnderVoltagePack "Diagnosis - Under voltage Pack.";
+CM_ SG_ 3221225472 bms0_demOverCurrentChg "Diagnosis - Over charge current.";
+CM_ SG_ 3221225472 bms0_demOverCurrentDis "Diagnosis - Over discharge current.";
+CM_ SG_ 3221225472 bms0_demOverTemperatureChg "Diagnosis - Over temperature in charging.";
+CM_ SG_ 3221225472 bms0_demOverTemperatureDis "Diagnosis - Over temperature in discharging.";
+CM_ SG_ 3221225472 bms0_demUnderTemperatureChg "Diagnosis - Under temperature in charging.";
+CM_ SG_ 3221225472 bms0_demUnderTemperatureDis "Diagnosis - Under temperature in discharging.";
+CM_ SG_ 3221225472 bms0_demImbCellChg "Diagnosis - Cell voltage imbalance in Charging.";
+CM_ SG_ 3221225472 bms0_demImbCellRest "Diagnosis - Cell voltage imbalance in Rest.";
+CM_ SG_ 3221225472 bms0_demImbCellTemperature "Diagnosis - Imbalance Cell Temperature";
+CM_ SG_ 3221225472 bms0_demImbCellSOC "Diagnosis - Cell SOC imbalance.";
+CM_ SG_ 3221225472 bms0_demOverVoltageCellCount "Diagnosis - Over voltage Cell Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demUnderVoltageCellCount "Diagnosis - Under voltage Cell Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demOverCurrentChgCount "Diagnosis - Over charge current Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demOverCurrentDisCount "Diagnosis - Over discharge current Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demOverTemperatureChgCount "Diagnosis - Over temperature in charging Fault Count. If count reaches maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demUnderTemperatureChgCount "Diagnosis - Under temperature in charging Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demOverTemperatureDisCount "Diagnosis - Over temperature in discharging Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demUnderTemperatureDisCount "Diagnosis - Under temperature in discharging Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demImbCellChgCount "Diagnosis - Cell voltage imbalance in Charging Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demImbCellRestCount "Diagnosis - Cell voltage imbalance in Rest Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demImbCellTemperatureCount "Diagnosis - Cell Temperature imbalance Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demOverVoltagePackCount "Diagnosis - Over voltage Pack Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demUnderVoltagePackCount "Diagnosis - Under voltage Pack Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demImbCellSOCCount "Diagnosis - Cell SOC imbalance Fault Count. If count reach to maximum value, it is sustained, no overflow. ";
+CM_ SG_ 3221225472 bms0_statusPowerCFET "control status of C-FET";
+CM_ SG_ 3221225472 bms0_statusPowerDFET "control status of D-FET";
+CM_ SG_ 3221225472 bms0_statusLowCapacityAlarm "Alarm - Low capacity (SOC < 10%)";
+CM_ SG_ 3221225472 bms0_statusPrechargeFET "control status of Precharge-FET";
+CM_ SG_ 3221225472 bms0_statusPackVoltageBAT "Sum of all series cell voltage.";
+CM_ SG_ 3221225472 bms0_statusTBD1 "TBD";
+CM_ SG_ 3221225472 bms0_statusPackCurrent "Measuring pack current,  charging is positive, discharging is negative.";
+CM_ SG_ 3221225472 bms0_socFullChargeCapacityAh "Full Charge Capacity Ah.";
+CM_ SG_ 3221225472 bms0_socRemainingCapacityAh "Remaining Capacity Ah.";
+CM_ SG_ 3221225472 bms0_socRSOC "Relative State Of Charge.";
+CM_ SG_ 3221225472 bms0_socSOH "State of health.";
+CM_ SG_ 3221225472 bms0_socCycleCount "Cycle Count";
+CM_ SG_ 3221225472 bms0_socRemainingChargingTime "Remaining Charging Time";
+CM_ SG_ 3221225472 bms0_AccumChargeCapacityAh "Accumulated Charge Capacity(Ah)";
+CM_ SG_ 3221225472 bms0_AccumDischargeCapacityAh "Accumulated Discharge Capacity(Ah)";
+CM_ SG_ 3221225472 bms0_demAsicOverVoltage "Diagnosis - Asic Over Voltage";
+CM_ SG_ 3221225472 bms0_demAsicUnderVoltage "Diagnosis - Asic Under Voltage";
+CM_ SG_ 3221225472 bms0_demAsicOverCurrentDis "Diagnosis - Asic Discharge Over Current";
+CM_ SG_ 3221225472 bms0_demAsicShortCurrent "Diagnosis - Asic Short Current";
+CM_ SG_ 3221225472 bms0_demAsicDeviceXReady "Diagnosis - Asic Device X Ready";
+CM_ SG_ 3221225472 bms0_demAsicOverRide "Diagnosis - Asic Over Ride";
+CM_ SG_ 3221225472 bms0_demAsicOverVoltageCount "Diagnosis - Asic Over Voltage Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demAsicUnderVoltageCount "Diagnosis - Asic Under Voltage Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demAsicOverCurrentDisCount "Diagnosis - Asic Discharge Over Current Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demAsicShortCurrentCount "Diagnosis - Asic Short Current Occured Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demAsicDeviceXReadyCount "Diagnosis - Asic Device X Ready Occurred Count";
+CM_ SG_ 3221225472 bms0_demAsicOverRideCount "Diagnosis - Asic Over Ride Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_statusVoltageCellAvg "Average cell voltage.";
+CM_ SG_ 3221225472 bms0_statusVoltageCellMin "minimum cell voltage.";
+CM_ SG_ 3221225472 bms0_statusVoltageCellMinNo "minimum cell voltage number";
+CM_ SG_ 3221225472 bms0_statusVoltageCellMaxNo "maximum cell voltage number";
+CM_ SG_ 3221225472 bms0_statusVoltageCell01 "Cell voltage.";
+CM_ SG_ 3221225472 bms0_statusVoltageCell02 "Cell voltage.";
+CM_ SG_ 3221225472 bms0_statusVoltageCell03 "Cell voltage.";
+CM_ SG_ 3221225472 bms0_statusVoltageCell04 "Cell voltage.";
+CM_ SG_ 3221225472 bms0_statusVoltageCell05 "Cell voltage.";
+CM_ SG_ 3221225472 bms0_statusVoltageCell06 "Cell voltage.";
+CM_ SG_ 3221225472 bms0_statusVoltageCell07 "Cell voltage.";
+CM_ SG_ 3221225472 bms0_statusVoltageCell08 "Cell voltage.";
+CM_ SG_ 3221225472 bms0_statusVoltageCell09 "Cell voltage.";
+CM_ SG_ 3221225472 bms0_statusVoltageCell10 "Cell voltage.";
+CM_ SG_ 3221225472 bms0_statusVoltageCell11 "Cell voltage.";
+CM_ SG_ 3221225472 bms0_statusVoltageCell12 "Cell voltage.";
+CM_ SG_ 3221225472 bms0_statusVoltageCell13 "Cell voltage.";
+CM_ SG_ 3221225472 bms0_statusVoltageCell14 "Cell voltage.";
+CM_ SG_ 3221225472 bms0_demBMSCFET "Diagnosis - BMS CFET";
+CM_ SG_ 3221225472 bms0_demBMSDFET "Diagnosis - BMS DFET";
+CM_ SG_ 3221225472 bms0_demBMSPFET "Diagnosis - BMS PFET";
+CM_ SG_ 3221225472 bms0_demBMSASICComm "Diagnosis - BMS ASIC Comm";
+CM_ SG_ 3221225472 bms0_demBMSASICShutdown "Diagnosis - BMS ASIC Shutdowm";
+CM_ SG_ 3221225472 bms0_demBMSPFET2 "Diagnosis - BMS PFET2 ( for External Short )";
+CM_ SG_ 3221225472 bms0_demBMSCFETCount "Diagnosis - BMS CFET  Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demBMSDFETCount "Diagnosis - BMS DFET Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demBMSPFETCount "Diagnosis - BMS PFET Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demBMSASICCommCount "Diagnosis - BMS ASIC Comm Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demBMSASICShutdownCount "Diagnosis - BMS ASIC Shutdown Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demBMSPFET2Count "Diagnosis - BMS PFET2 Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demPackFuseBlow "Diagnosis - Pack Fuse Blow";
+CM_ SG_ 3221225472 bms0_demPackFuseResistance "Diagnosis - Pack Fuse Resistance Current";
+CM_ SG_ 3221225472 bms0_demPackFuseOverCurrent "Diagnosis - Pack Fuse Over Current";
+CM_ SG_ 3221225472 bms0_demPackFETTemperature "Diagnosis - Pack FET Temperature(Over)";
+CM_ SG_ 3221225472 bms0_demPackFuseBlowCount "Diagnosis - Pack Fuse Blow Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demPackFuseResistanceCount "Diagnosis - Pack Fuse Resistance Current Occurred Count";
+CM_ SG_ 3221225472 bms0_demPackFuseOverCurrentCount "Diagnosis - Pack Fuse Over Current Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_demPackFETTemperatureCount "Diagnosis - Pack FET Temperature(Over) Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms0_mileage_data "Pack life time mileage data";
+CM_ SG_ 3221225472 bms0_mileageTBD1 "TBD";
+CM_ SG_ 3221225472 bms0_statusTemperatureCellAvg "Average Temperature - cell.";
+CM_ SG_ 3221225472 bms0_statusTemperatureCellMin "Minimum Temperature - cell.";
+CM_ SG_ 3221225472 bms0_statusTemperatureCellMinNo "Minimum Temperature Number - cell.";
+CM_ SG_ 3221225472 bms0_statusTemperatureCellMax "Maximum Temperature - cell.";
+CM_ SG_ 3221225472 bms0_statusTemperatureCellMaxNo "Maximum Temperature Number - cell.";
+CM_ SG_ 3221225472 bms0_statusTemperatureCell1 "Temperature - cell.";
+CM_ SG_ 3221225472 bms0_statusTemperatureCell2 "Temperature - cell.";
+CM_ SG_ 3221225472 bms0_statusTemperatureCell3 "Temperature - cell.";
+CM_ SG_ 3221225472 bms0_statusTemperatureCB1 "Temperature - cell balancing circuit.";
+CM_ SG_ 3221225472 bms0_statusTemperatureCB2 "Temperature - cell balancing circuit.";
+CM_ SG_ 3221225472 bms0_statusTemperatureFET1 "Temperature - Power FET Temperature";
+CM_ SG_ 3221225472 bms0_statusTemperatureFET2 "Temperature - Power FET Temperature";
+CM_ SG_ 3221225472 bms0_rentalinfo_remaintime "Rental Remain Time";
+CM_ SG_ 3221225472 bms0_rentalinfo_bonustime "Bonus Charge";
+CM_ SG_ 3221225472 bms0_rentalinfo_expired "Rental Expired";
+CM_ SG_ 3221225472 bms0_rentalinfoTBD1 "TBD";
+CM_ SG_ 3221225472 bms0_rentalinfoTBD2 "TBD";
+CM_ SG_ 3221225472 bms0_rentalinfo_customer1 "CustomerID1";
+CM_ SG_ 3221225472 bms0_rentalinfo_customer12 "CustomerID2";
+CM_ SG_ 3221225472 bms0_rentalinfo_customer2 "CustomerID3";
+CM_ SG_ 3221225472 bms0_rentalinfo_customer22 "CustomerID4";
+CM_ SG_ 3221225472 bms0_statustrust_bms1charger "Trust Status";
+CM_ SG_ 3221225472 bms0_statustrust_bms0charger "Trust Status";
+CM_ SG_ 3221225472 bms0_statustrust_bms3charger "Trust Status";
+CM_ SG_ 3221225472 bms0_statustrust_bms2charger "Trust Status";
+CM_ SG_ 3221225472 bms0_resulttrust_bms1charger "Trust Result";
+CM_ SG_ 3221225472 bms0_resulttrust_bms0charger "Trust Result";
+CM_ SG_ 3221225472 bms0_resulttrust_bms3charger "Trust Result";
+CM_ SG_ 3221225472 bms0_resulttrust_bms2charger "Trust Result";
+CM_ SG_ 3221225472 bms0_statustrust_bms1cbox "Trust Status : Master BMS BMS2VHC Fail Flag Status for sharing to slave";
+CM_ SG_ 3221225472 bms0_statustrust_bms0cbox "Trust Status : Master BMS BMS2VHC Fail Flag Status for sharing to slave";
+CM_ SG_ 3221225472 bms0_statustrust_bms3cbox "Trust Status";
+CM_ SG_ 3221225472 bms0_statustrust_bms2cbox "Trust Status";
+CM_ SG_ 3221225472 bms0_resulttrust_bms1cbox "Trust Result";
+CM_ SG_ 3221225472 bms0_resulttrust_bms0cbox "Trust Result";
+CM_ SG_ 3221225472 bms0_resulttrust_bms3cbox "Trust Result";
+CM_ SG_ 3221225472 bms0_resulttrust_bms2cbox "Trust Result";
+CM_ SG_ 3221225472 bms0_demParallelOvrdSlave "Diagnosis - Parallel Overide Slave";
+CM_ SG_ 3221225472 bms0_demParallelOvrdMaster "Diagnosis - Parallel Overide Master";
+CM_ SG_ 3221225472 bms0_demParallelDiffVoltage "Diagnosis - Parallel Diff Voltage";
+CM_ SG_ 3221225472 bms0_demParallelDiffCurrent "Diagnosis - Parallel Diff Current";
+CM_ SG_ 3221225472 bms0_demParallelDiffSOC "Diagnosis - Parallel Diff SOC";
+CM_ SG_ 3221225472 bms0_demParallelDiffTemp "Diagnosis - Parallel Diff Temp";
+CM_ SG_ 3221225472 bms0_demParallelDiffVer "Diagnosis - Parallel Diff Ver";
+CM_ SG_ 3221225472 bms0_demParallelDiffSOH "Diagnosis - Parallel Diff SOH";
+CM_ SG_ 3221225472 bms0_statusID "ID";
+CM_ SG_ 3221225472 bms0_statusISOTPID "ISOTP ID";
+CM_ SG_ 3221225472 bms0_statusPackTimeout "(bit field) Pack Timeout. Pack0,1,2,3";
+CM_ SG_ 3221225472 bms0_statusMasterAuthSync "Master Auth Sync";
+CM_ SG_ 3221225472 bms0_statusParallelTBD1 "Diag Msater";
+CM_ SG_ 3221225472 bms0_statusParallelDiagPack1 "Diag Pack1";
+CM_ SG_ 3221225472 bms0_statusParallelDiagPack0 "Diag Pack0";
+CM_ SG_ 3221225472 bms0_versionSoftwareMinor "Version - application_minor";
+CM_ SG_ 3221225472 bms0_versionSoftwareSubminor "Version - application_subminor";
+CM_ SG_ 3221225472 bms0_versionBootloaderMajor "Version - bootloader";
+CM_ SG_ 3221225472 bms0_versionSoftwareMajor "Version - application_major";
+CM_ SG_ 3221225472 bms0_versionBootloaderMinor "Version - bootloader";
+CM_ SG_ 3221225472 bms0_versionBootloaderSubminor "Version - bootloader";
+CM_ SG_ 3221225472 bms0_versionHardwareMajor "Version - BMS HW";
+CM_ SG_ 3221225472 bms0_versionTBD1 "TBD";
+CM_ SG_ 3221225472 bms0_versionManufacturerDate "Manufactuer Date";
+CM_ SG_ 3221225472 bms0_versionManufacturerSerialNo "manufacturer serial number per day";
+CM_ SG_ 3221225472 bms1_controlSysMaxChgCurrent "System Available max charging current value.";
+CM_ SG_ 3221225472 bms1_controlSysMaxDsgCurrent "System Available max discharging current value.";
+CM_ SG_ 3221225472 bms1_controlSysMaxChgPower "System Available max charging power value.";
+CM_ SG_ 3221225472 bms1_controlSysMaxDsgPower "System Available max discharging power value.";
+CM_ SG_ 3221225472 bms1_chargingVoltageLimit "Voltage limitation value for charging (in case of fault, this value will be zero)";
+CM_ SG_ 3221225472 bms1_chargingCurrentLimit "Current limitation value for charging (in case of fault, this value will be zero)";
+CM_ SG_ 3221225472 bms1_chargingFullyChargedSts "Fully charged status. ";
+CM_ SG_ 3221225472 bms1_chargingTBD1 "TBD";
+CM_ SG_ 3221225472 bms1_chargingTBD2 "TBD";
+CM_ SG_ 3221225472 bms1_chargingTBD3 "TBD";
+CM_ SG_ 3221225472 bms1_chargingDiagCharger "DiagCharger";
+CM_ SG_ 3221225472 bms1_statusIgnitionRecognition "Status that BMS recognizes ignition pin";
+CM_ SG_ 3221225472 bms1_statusRollingCounter "0,1,2,3 -> 0,1,2,3.   It is rolling count means to BMS processing is well.  It will stop counting, if BMS processing gets stuck";
+CM_ SG_ 3221225472 bms1_statusBmsUserMode "User mode of the battery pack.";
+CM_ SG_ 3221225472 bms1_statusBmsOpState "Operation mode of the battery pack.";
+CM_ SG_ 3221225472 bms1_statusCurrentDirection "Current(Amps) Direction";
+CM_ SG_ 3221225472 bms1_stsDiagCellTopPriorResult "Most Severe Cell Diagnosis Result based on priority of diagnosis item and diagnosis level.";
+CM_ SG_ 3221225472 bms1_stsRentalFuncEnable "Rental Function Enable";
+CM_ SG_ 3221225472 bms1_stsAuthFuncEnable "Authentication Function Enable";
+CM_ SG_ 3221225472 bms1_statusCB02 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms1_statusCB01 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms1_statusCB04 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms1_statusCB03 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms1_statusCB06 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms1_statusCB05 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms1_statusCB08 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms1_statusCB07 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms1_statusCB10 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms1_statusCB09 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms1_statusCB12 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms1_statusCB11 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms1_statusCB14 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms1_statusCB13 "Status of cell balancing circuit.";
+CM_ SG_ 3221225472 bms1_demOverVoltageCell "Diagnosis - Over voltage Cell.";
+CM_ SG_ 3221225472 bms1_demOverVoltagePack "Diagnosis - Over voltage Pack.";
+CM_ SG_ 3221225472 bms1_demUnderVoltageCell "Diagnosis - Under voltage Cell.";
+CM_ SG_ 3221225472 bms1_demUnderVoltagePack "Diagnosis - Under voltage Pack.";
+CM_ SG_ 3221225472 bms1_demOverCurrentChg "Diagnosis - Over charge current.";
+CM_ SG_ 3221225472 bms1_demOverCurrentDis "Diagnosis - Over discharge current.";
+CM_ SG_ 3221225472 bms1_demOverTemperatureChg "Diagnosis - Over temperature in charging.";
+CM_ SG_ 3221225472 bms1_demOverTemperatureDis "Diagnosis - Over temperature in discharging.";
+CM_ SG_ 3221225472 bms1_demUnderTemperatureChg "Diagnosis - Under temperature in charging.";
+CM_ SG_ 3221225472 bms1_demUnderTemperatureDis "Diagnosis - Under temperature in discharging.";
+CM_ SG_ 3221225472 bms1_demImbCellChg "Diagnosis - Cell voltage imbalance in Charging.";
+CM_ SG_ 3221225472 bms1_demImbCellRest "Diagnosis - Cell voltage imbalance in Rest.";
+CM_ SG_ 3221225472 bms1_demImbCellTemperature "Diagnosis - Imbalance Cell Temperature";
+CM_ SG_ 3221225472 bms1_demImbCellSOC "Diagnosis - Cell SOC imbalance.";
+CM_ SG_ 3221225472 bms1_demOverVoltageCellCount "Diagnosis - Over voltage Cell Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demUnderVoltageCellCount "Diagnosis - Under voltage Cell Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demOverCurrentChgCount "Diagnosis - Over charge current Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demOverCurrentDisCount "Diagnosis - Over discharge current Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demOverTemperatureChgCount "Diagnosis - Over temperature in charging Fault Count. If count reaches maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demUnderTemperatureChgCount "Diagnosis - Under temperature in charging Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demOverTemperatureDisCount "Diagnosis - Over temperature in discharging Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demUnderTemperatureDisCount "Diagnosis - Under temperature in discharging Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demImbCellChgCount "Diagnosis - Cell voltage imbalance in Charging Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demImbCellRestCount "Diagnosis - Cell voltage imbalance in Rest Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demImbCellTemperatureCount "Diagnosis - Cell Temperature imbalance Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demOverVoltagePackCount "Diagnosis - Over voltage Pack Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demUnderVoltagePackCount "Diagnosis - Under voltage Pack Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demImbCellSOCCount "Diagnosis - Cell SOC imbalance Fault Count. If count reach to maximum value, it is sustained, no overflow. ";
+CM_ SG_ 3221225472 bms1_statusPowerCFET "control status of C-FET";
+CM_ SG_ 3221225472 bms1_statusPowerDFET "control status of D-FET";
+CM_ SG_ 3221225472 bms1_statusLowCapacityAlarm "Alarm - Low capacity (SOC < 10%)";
+CM_ SG_ 3221225472 bms1_statusPrechargeFET "control status of Precharge-FET";
+CM_ SG_ 3221225472 bms1_statusPackVoltageBAT "Sum of all series cell voltage.";
+CM_ SG_ 3221225472 bms1_statusTBD1 "TBD";
+CM_ SG_ 3221225472 bms1_statusPackCurrent "Measuring pack current,  charging is positive, discharging is negative.";
+CM_ SG_ 3221225472 bms1_socFullChargeCapacityAh "Full Charge Capacity Ah.";
+CM_ SG_ 3221225472 bms1_socRemainingCapacityAh "Remaining Capacity Ah.";
+CM_ SG_ 3221225472 bms1_socRSOC "Relative State Of Charge.";
+CM_ SG_ 3221225472 bms1_socSOH "State of health.";
+CM_ SG_ 3221225472 bms1_socCycleCount "Cycle Count";
+CM_ SG_ 3221225472 bms1_socRemainingChargingTime "Remaining Charging Time";
+CM_ SG_ 3221225472 bms1_AccumChargeCapacityAh "Accumulated Charge Capacity(Ah)";
+CM_ SG_ 3221225472 bms1_AccumDischargeCapacityAh "Accumulated Discharge Capacity(Ah)";
+CM_ SG_ 3221225472 bms1_demAsicOverVoltage "Diagnosis - Asic Over Voltage";
+CM_ SG_ 3221225472 bms1_demAsicUnderVoltage "Diagnosis - Asic Under Voltage";
+CM_ SG_ 3221225472 bms1_demAsicOverCurrentDis "Diagnosis - Asic Discharge Over Current";
+CM_ SG_ 3221225472 bms1_demAsicShortCurrent "Diagnosis - Asic Short Current";
+CM_ SG_ 3221225472 bms1_demAsicDeviceXReady "Diagnosis - Asic Device X Ready";
+CM_ SG_ 3221225472 bms1_demAsicOverRide "Diagnosis - Asic Over Ride";
+CM_ SG_ 3221225472 bms1_demAsicOverVoltageCount "Diagnosis - Asic Over Voltage Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demAsicUnderVoltageCount "Diagnosis - Asic Under Voltage Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demAsicOverCurrentDisCount "Diagnosis - Asic Discharge Over Current Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demAsicShortCurrentCount "Diagnosis - Asic Short Current Occured Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demAsicDeviceXReadyCount "Diagnosis - Asic Device X Ready Occurred Count";
+CM_ SG_ 3221225472 bms1_demAsicOverRideCount "Diagnosis - Asic Over Ride Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_statusVoltageCellAvg "Average cell voltage.";
+CM_ SG_ 3221225472 bms1_statusVoltageCellMin "minimum cell voltage.";
+CM_ SG_ 3221225472 bms1_statusVoltageCellMinNo "minimum cell voltage number";
+CM_ SG_ 3221225472 bms1_statusVoltageCellMaxNo "maximum cell voltage number";
+CM_ SG_ 3221225472 bms1_statusVoltageCell01 "Cell voltage.";
+CM_ SG_ 3221225472 bms1_statusVoltageCell02 "Cell voltage.";
+CM_ SG_ 3221225472 bms1_statusVoltageCell03 "Cell voltage.";
+CM_ SG_ 3221225472 bms1_statusVoltageCell04 "Cell voltage.";
+CM_ SG_ 3221225472 bms1_statusVoltageCell05 "Cell voltage.";
+CM_ SG_ 3221225472 bms1_statusVoltageCell06 "Cell voltage.";
+CM_ SG_ 3221225472 bms1_statusVoltageCell07 "Cell voltage.";
+CM_ SG_ 3221225472 bms1_statusVoltageCell08 "Cell voltage.";
+CM_ SG_ 3221225472 bms1_statusVoltageCell09 "Cell voltage.";
+CM_ SG_ 3221225472 bms1_statusVoltageCell10 "Cell voltage.";
+CM_ SG_ 3221225472 bms1_statusVoltageCell11 "Cell voltage.";
+CM_ SG_ 3221225472 bms1_statusVoltageCell12 "Cell voltage.";
+CM_ SG_ 3221225472 bms1_statusVoltageCell13 "Cell voltage.";
+CM_ SG_ 3221225472 bms1_statusVoltageCell14 "Cell voltage.";
+CM_ SG_ 3221225472 bms1_demBMSCFET "Diagnosis - BMS CFET";
+CM_ SG_ 3221225472 bms1_demBMSDFET "Diagnosis - BMS DFET";
+CM_ SG_ 3221225472 bms1_demBMSPFET "Diagnosis - BMS PFET";
+CM_ SG_ 3221225472 bms1_demBMSASICComm "Diagnosis - BMS ASIC Comm";
+CM_ SG_ 3221225472 bms1_demBMSASICShutdown "Diagnosis - BMS ASIC Shutdowm";
+CM_ SG_ 3221225472 bms1_demBMSPFET2 "Diagnosis - BMS PFET2 ( for External Short )";
+CM_ SG_ 3221225472 bms1_demBMSCFETCount "Diagnosis - BMS CFET  Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demBMSDFETCount "Diagnosis - BMS DFET Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demBMSPFETCount "Diagnosis - BMS PFET Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demBMSASICCommCount "Diagnosis - BMS ASIC Comm Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demBMSASICShutdownCount "Diagnosis - BMS ASIC Shutdown Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demBMSPFET2Count "Diagnosis - BMS PFET2 Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demPackFuseBlow "Diagnosis - Pack Fuse Blow";
+CM_ SG_ 3221225472 bms1_demPackFuseResistance "Diagnosis - Pack Fuse Resistance Current";
+CM_ SG_ 3221225472 bms1_demPackFuseOverCurrent "Diagnosis - Pack Fuse Over Current";
+CM_ SG_ 3221225472 bms1_demPackFETTemperature "Diagnosis - Pack FET Temperature(Over)";
+CM_ SG_ 3221225472 bms1_demPackFuseBlowCount "Diagnosis - Pack Fuse Blow Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demPackFuseResistanceCount "Diagnosis - Pack Fuse Resistance Current Occurred Count";
+CM_ SG_ 3221225472 bms1_demPackFuseOverCurrentCount "Diagnosis - Pack Fuse Over Current Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_demPackFETTemperatureCount "Diagnosis - Pack FET Temperature(Over) Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 3221225472 bms1_mileage_data "Pack life time mileage data";
+CM_ SG_ 3221225472 bms1_mileageTBD1 "TBD";
+CM_ SG_ 3221225472 bms1_statusTemperatureCellAvg "Average Temperature - cell.";
+CM_ SG_ 3221225472 bms1_statusTemperatureCellMin "Minimum Temperature - cell.";
+CM_ SG_ 3221225472 bms1_statusTemperatureCellMinNo "Minimum Temperature Number - cell.";
+CM_ SG_ 3221225472 bms1_statusTemperatureCellMax "Maximum Temperature - cell.";
+CM_ SG_ 3221225472 bms1_statusTemperatureCellMaxNo "Maximum Temperature Number - cell.";
+CM_ SG_ 3221225472 bms1_statusTemperatureCell1 "Temperature - cell.";
+CM_ SG_ 3221225472 bms1_statusTemperatureCell2 "Temperature - cell.";
+CM_ SG_ 3221225472 bms1_statusTemperatureCell3 "Temperature - cell.";
+CM_ SG_ 3221225472 bms1_statusTemperatureCB1 "Temperature - cell balancing circuit.";
+CM_ SG_ 3221225472 bms1_statusTemperatureCB2 "Temperature - cell balancing circuit.";
+CM_ SG_ 3221225472 bms1_statusTemperatureFET1 "Temperature - Power FET Temperature";
+CM_ SG_ 3221225472 bms1_statusTemperatureFET2 "Temperature - Power FET Temperature";
+CM_ SG_ 3221225472 bms1_rentalinfo_remaintime "Rental Remain Time";
+CM_ SG_ 3221225472 bms1_rentalinfo_bonustime "Bonus Charge";
+CM_ SG_ 3221225472 bms1_rentalinfo_expired "Rental Expired";
+CM_ SG_ 3221225472 bms1_rentalinfoTBD1 "TBD";
+CM_ SG_ 3221225472 bms1_rentalinfoTBD2 "TBD";
+CM_ SG_ 3221225472 bms1_rentalinfo_customer1 "CustomerID1";
+CM_ SG_ 3221225472 bms1_rentalinfo_customer12 "CustomerID2";
+CM_ SG_ 3221225472 bms1_rentalinfo_customer2 "CustomerID3";
+CM_ SG_ 3221225472 bms1_rentalinfo_customer22 "CustomerID4";
+CM_ SG_ 3221225472 bms1_statustrust_bms1charger "Trust Status";
+CM_ SG_ 3221225472 bms1_statustrust_bms0charger "Trust Status";
+CM_ SG_ 3221225472 bms1_statustrust_bms3charger "Trust Status";
+CM_ SG_ 3221225472 bms1_statustrust_bms2charger "Trust Status";
+CM_ SG_ 3221225472 bms1_resulttrust_bms1charger "Trust Result";
+CM_ SG_ 3221225472 bms1_resulttrust_bms0charger "Trust Result";
+CM_ SG_ 3221225472 bms1_resulttrust_bms3charger "Trust Result";
+CM_ SG_ 3221225472 bms1_resulttrust_bms2charger "Trust Result";
+CM_ SG_ 3221225472 bms1_statustrust_bms1cbox "Trust Status : Master BMS BMS2VHC Fail Flag Status for sharing to slave";
+CM_ SG_ 3221225472 bms1_statustrust_bms0cbox "Trust Status : Master BMS BMS2VHC Fail Flag Status for sharing to slave";
+CM_ SG_ 3221225472 bms1_statustrust_bms3cbox "Trust Status";
+CM_ SG_ 3221225472 bms1_statustrust_bms2cbox "Trust Status";
+CM_ SG_ 3221225472 bms1_resulttrust_bms1cbox "Trust Result";
+CM_ SG_ 3221225472 bms1_resulttrust_bms0cbox "Trust Result";
+CM_ SG_ 3221225472 bms1_resulttrust_bms3cbox "Trust Result";
+CM_ SG_ 3221225472 bms1_resulttrust_bms2cbox "Trust Result";
+CM_ SG_ 3221225472 bms1_demParallelOvrdSlave "Diagnosis - Parallel Overide Slave";
+CM_ SG_ 3221225472 bms1_demParallelOvrdMaster "Diagnosis - Parallel Overide Master";
+CM_ SG_ 3221225472 bms1_demParallelDiffVoltage "Diagnosis - Parallel Diff Voltage";
+CM_ SG_ 3221225472 bms1_demParallelDiffCurrent "Diagnosis - Parallel Diff Current";
+CM_ SG_ 3221225472 bms1_demParallelDiffSOC "Diagnosis - Parallel Diff SOC";
+CM_ SG_ 3221225472 bms1_demParallelDiffTemp "Diagnosis - Parallel Diff Temp";
+CM_ SG_ 3221225472 bms1_demParallelDiffVer "Diagnosis - Parallel Diff Ver";
+CM_ SG_ 3221225472 bms1_demParallelDiffSOH "Diagnosis - Parallel Diff SOH";
+CM_ SG_ 3221225472 bms1_statusID "ID";
+CM_ SG_ 3221225472 bms1_statusISOTPID "ISOTP ID";
+CM_ SG_ 3221225472 bms1_statusPackTimeout "(bit field) Pack Timeout. Pack0,1,2,3";
+CM_ SG_ 3221225472 bms1_statusMasterAuthSync "Master Auth Sync";
+CM_ SG_ 3221225472 bms1_statusParallelTBD1 "Diag Msater";
+CM_ SG_ 3221225472 bms1_statusParallelDiagPack1 "Diag Pack1";
+CM_ SG_ 3221225472 bms1_statusParallelDiagPack0 "Diag Pack0";
+CM_ SG_ 3221225472 bms1_versionSoftwareMinor "Version - application_minor";
+CM_ SG_ 3221225472 bms1_versionSoftwareSubminor "Version - application_subminor";
+CM_ SG_ 3221225472 bms1_versionBootloaderMajor "Version - bootloader";
+CM_ SG_ 3221225472 bms1_versionSoftwareMajor "Version - application_major";
+CM_ SG_ 3221225472 bms1_versionBootloaderMinor "Version - bootloader";
+CM_ SG_ 3221225472 bms1_versionBootloaderSubminor "Version - bootloader";
+CM_ SG_ 3221225472 bms1_versionHardwareMajor "Version - BMS HW";
+CM_ SG_ 3221225472 bms1_versionTBD1 "TBD";
+CM_ SG_ 3221225472 bms1_versionManufacturerDate "Manufactuer Date";
+CM_ SG_ 3221225472 bms1_versionManufacturerSerialNo "manufacturer serial number per day";
+CM_ BO_ 262 "1: Floating wake up pin of charger
+0: Pull up wake up pin of charger";
+CM_ SG_ 262 vcu_ctrl_chgWakePin "1: Floating wake up pin of charger
+0: Pull up wake up pin of charger";
+CM_ SG_ 1034 HMI_CountDownSleep "The second to enter to DeepSleep mode";
+CM_ SG_ 1034 HMI_AuthState "To notify that HMI in auth state";
+CM_ SG_ 1034 HMI_VehicleState "The vehicle state, what value HMI received ";
+CM_ SG_ 1034 HMI_RunningError "The error code in HMI";
+CM_ SG_ 1034 HMI_RunningState "The current state of HMI
+
+APP_STATE_IDLE = 0,
+APP_STATE_INIT,
+APP_STATE_RUN,
+APP_STATE_SLEEP,
+APP_STATE_DEEP_SLEEP,
+APP_STATE_FOTA,
+APP_STATE_STOP
+";
+CM_ SG_ 1280 charger_harwareversion "Harware version of Charger : 0-255";
+CM_ SG_ 1280 charger_Serialnumber "Serial number perdate";
+CM_ SG_ 1280 charger_Manufacturedate "Field Bits Used Format Allowable Values
+Day 0...4 5 bit binary value 1 - 31 (corresponds to date)
+Month 5...8 4 bit binary value 1 - 12 (corresponds to month number)
+Year 9...15 7 bit binary value 0 - 127 (corresponds to year biased by 1980)";
+CM_ BO_ 1281 "0,1,2,3,0,1,2,3.   it counts if all of the processes in the microcontroller are working properly.  It should stop counting if a process gets stuck";
+CM_ SG_ 1281 charger_rollingcounter "0,1,2,3,0,1,2,3.   it counts if all of the processes in the microcontroller are working properly.  It should stop counting if a process gets stuck";
+CM_ BO_ 1283 "-";
+CM_ SG_ 1284 charger_configSts_bms_pack4 "NotRecog(0)/Attachment(1)/Warn1(2)/Warn(3)/Fault(4)/Failure(5)";
+CM_ SG_ 1284 charger_configSts_bms_pack3 "NotRecog(0)/Attachment(1)/Warn1(2)/Warn(3)/Fault(4)/Failure(5)";
+CM_ SG_ 1284 charger_configSts_bms_pack2 "NotRecog(0)/Attachment(1)/Warn1(2)/Warn(3)/Fault(4)/Failure(5)";
+CM_ SG_ 1284 charger_configSts_bms_pack1 "NotRecog(0)/Attachment(1)/Warn1(2)/Warn(3)/Fault(4)/Failure(5)";
+CM_ SG_ 1284 charger_configReq_bms_pack4 "Primary (Fixed) ?P; Secondary (Replaceable) ?S;";
+CM_ SG_ 1284 charger_configReq_bms_pack3 "Primary (Fixed) ?P; Secondary (Replaceable) ?S;";
+CM_ SG_ 1284 charger_configReq_bms_pack2 "Primary (Fixed) ?P; Secondary (Replaceable) ?S;";
+CM_ SG_ 1284 charger_configReq_bms_pack1 "Primary (Fixed) ?P; Secondary (Replaceable) ?S;";
+CM_ SG_ 1284 charger_configInit_bms_pack4 "Primary (Fixed) ?P; Secondary (Replaceable) ?S;";
+CM_ SG_ 1284 charger_configInit_bms_pack3 "Primary (Fixed) ?P; Secondary (Replaceable) ?S;";
+CM_ SG_ 1284 charger_configInit_bms_pack2 "Primary (Fixed) ?P; Secondary (Replaceable) ?S;";
+CM_ SG_ 1284 charger_configInit_bms_pack1 "Primary (Fixed) ?P; Secondary (Replaceable) ?S;";
+CM_ SG_ 259 vcu_changemode_req "0: don't care
+1: request MCU to running
+2: request MCU to off/parking";
+CM_ SG_ 259 vcu_ignition_status "0: No Ignition
+1: Has Ignition (P button)";
+CM_ SG_ 296 vcu_current_err_module_id "* MCU_ADDRESS   1U
+ * BMS1_ADDRESS  2U
+ * BMS2_ADDRESS  3U
+ * BMS3_ADDRESS  4U
+ * BMS4_ADDRESS  5U
+ * VCU_ADDRESS   6U
+ * SCU_ADDRESS   7U
+ * HMI_ADDRESS   8U
+ * CHARGER_ADDRESS  9U
+ * PC_ADDRESS 10U";
+CM_ SG_ 296 vcu_current_err_priority "Current Error Code : 01
+History Code : 02
+Pending Code : 03";
+CM_ SG_ 296 vcu_current_err_index "Index of NumberDTC";
+CM_ SG_ 296 vcu_current_err_number "Number of Error Code";
+CM_ SG_ 305 vcu_control_data1 "This signal content 8 byte (array 1 ) of Public Key";
+CM_ SG_ 1028 hmi_sync_keytime_status "0 : Status None
+1:  Status OK (Confirm Sync Time and Public Key OK)
+2:  Trigger To SyncKey
+";
+CM_ SG_ 1028 hmi_smk_auth "0: Dont care
+1 : Auth success
+2: Auth Fail";
+CM_ SG_ 1028 hmi_smartkey_command "0 : Not use
+1 : Lock
+2: Unlock
+3: Finding";
+CM_ SG_ 1028 hmi_unlock_saddle "Dont care 0: Lock saddle: 1, Unlock_saddle: 2";
+CM_ SG_ 1028 hmi_vehicle_on_off "0: Dont care, 1; ON, 2: OFF";
+CM_ SG_ 1800 escl_bolt_message_type "0: is message status
+else: ignore mesage";
+CM_ SG_ 1800 escl_boltstatus "0x0 = DONTCARE 
+0x1= MOTORFORWARD (HANDLELOCKED)
+0x2= MOTORREVERSE(HANDLEUNLOCKED)
+0x3= BOLTSTUCK";
+CM_ BO_ 51 "ABS information status";
+CM_ SG_ 51 abs_warning_lamp "0: Normal
+4: ABS failure
+1: Checking WSS signal
+Other: Not defened. Don't care";
+CM_ SG_ 51 abs_rear_speed_valid "0: Normal. 1: Fail";
+CM_ SG_ 51 abs_rear_control_status "0: Idle. 1: Active";
+CM_ SG_ 51 abs_front_speed_valid "0: Normal. 1: Fail";
+CM_ SG_ 51 abs_front_control_status "0: Normal. 1: Fail";
+CM_ BO_ 1929 "0: Accept RKEY
+1: Block RKEY";
+CM_ BO_ 1922 "0: Fail
+1: Normal";
+CM_ SG_ 1922 scu_failtaccelerometer "0: Dont care
+4: Failt sensor";
+CM_ SG_ 1923 scu_controlvcu_precharge "0:On
+1:Off";
+CM_ SG_ 1923 scu_setBlockVehicle "0:nothing
+1:block
+2: unblock";
+CM_ SG_ 1923 scu_SetTemperatureUnit "0: Set Temperature unit is 0C
+1: Set Temperature unit is 0F";
+CM_ SG_ 1923 scu_SetSpeedUnit "0: TimeFormat is 24h
+1: TimeFormat is 12h";
+CM_ SG_ 1923 scu_SetAutolight "0: Setting Autolight enable
+1: Setting Autolight disable";
+CM_ SG_ 1923 scu_ctrlvcu_command "0: Do nothing
+1: Scu control Unlock
+2: Scu control Lock
+3: Scu contro Finding";
+CM_ SG_ 1923 scu_setvibration_en "0: Setting antitheft enable
+1: Setting antitheft disable";
+CM_ SG_ 1923 scu_SetTimeFormat "0: TimeFormat is 24h
+1: TimeFormat is 12h";
+CM_ SG_ 1921 scu_rollingcounter_sig "0,1,2,3,0,1,2,3.   it counts if all of the processes in the microcontroller are working properly.  It should stop counting if a process gets stuck";
+CM_ SG_ 1920 scu_hardwareverision "0x02: V7Sport
+0x03: V9Sport
+0x05: V9 Sport Ltd";
+CM_ SG_ 516 mcu_brake_switch_front "0: Not active. 1: Active";
+CM_ SG_ 516 mcu_brake_switch_rear "0: Not active. 1: Active";
+CM_ BO_ 260 "Message control steering lock";
+CM_ SG_ 260 vcu_lockunlock_escl "0x0 = DONTCARE
+0x1= MOTORFORWARD
+0x2=MOTORREVERSE
+0x3 = DONTCARE";
+CM_ SG_ 273 vcu_configInit_bms_pack4 "Primary (Fixed) ?P; Secondary (Replaceable) ?S;";
+CM_ SG_ 273 vcu_configSts_bms_pack4 "NotRecog(0)/Attachment(1)/Warn1(2)/Warn(3)/Fault(4)/Failure(5)";
+CM_ SG_ 273 vcu_configSts_bms_pack3 "NotRecog(0)/Attachment(1)/Warn1(2)/Warn(3)/Fault(4)/Failure(5)";
+CM_ SG_ 273 vcu_configSts_bms_pack2 "NotRecog(0)/Attachment(1)/Warn1(2)/Warn(3)/Fault(4)/Failure(5)";
+CM_ SG_ 273 vcu_configSts_bms_pack1 "NotRecog(0)/Attachment(1)/Warn1(2)/Warn(3)/Fault(4)/Failure(5)";
+CM_ SG_ 273 vcu_configReq_bms_pack4 "Primary (Fixed) ?P; Secondary (Replaceable) ?S;";
+CM_ SG_ 273 vcu_configReq_bms_pack3 "Primary (Fixed) ?P; Secondary (Replaceable) ?S;";
+CM_ SG_ 273 vcu_configReq_bms_pack2 "Primary (Fixed) ?P; Secondary (Replaceable) ?S;";
+CM_ SG_ 273 vcu_configReq_bms_pack1 "Primary (Fixed) ?P; Secondary (Replaceable) ?S;";
+CM_ SG_ 273 vcu_configInit_bms_pack3 "Primary (Fixed) ?P; Secondary (Replaceable) ?S;";
+CM_ SG_ 273 vcu_configInit_bms_pack2 "Primary (Fixed) ?P; Secondary (Replaceable) ?S;";
+CM_ SG_ 273 vcu_configInit_bms_pack1 "Primary (Fixed) ?P; Secondary (Replaceable) ?S;";
+CM_ SG_ 273 vcu_config_totalpackno "PrimaryNo + SecondaryNo (Check mismatch)";
+CM_ SG_ 264 vcu_total_ODO "Cbox total ODO , ( Unit 100m)";
+CM_ SG_ 515 mcu_request_odo_sig "Default data is : 0x7E 
+If data is 0x7E ECU will Send CBOX_SyncODO (0x108) each 150ms";
+CM_ SG_ 1027 hmi_light_sensor_status "0: Sang
+1: Toi";
+CM_ BO_ 1026 "0 : Not fail, 
+3: Failure";
+CM_ SG_ 1026 hmi_fobbatterylow "0: Dont care
+4: Smart key low power";
+CM_ SG_ 1026 hmi_fail_tempsensor "0: Normal
+1: Error";
+CM_ SG_ 1026 hmi_fail_flasherror "0: Normal
+1: Error";
+CM_ SG_ 271 vcu_leadacid_chargstatus "0: None
+1: Check
+2: Start
+3: Charging
+4: Fail";
+CM_ SG_ 295 vcu_failconnectMCU "Fail connect motor control via CAN
+0: Not fail
+1: Fail ";
+CM_ SG_ 295 vcu_failconnectHMI "Cbox fail connect to HMI
+0: Normal
+1: Fail";
+CM_ SG_ 295 vcu_failconnectBMS "Cbox fail connect to BMS
+0: Not fail
+1: Fail 
+";
+CM_ SG_ 295 vcu_failmcuprotect "Bluetooth module fail
+0: Not fail
+1: Fail";
+CM_ SG_ 295 vcu_fail_leadacid "0: Acqui normal
+1: Acqui voltage is low";
+CM_ SG_ 295 vcu_failaccelerometer "0 : Not fail
+1: Fail";
+CM_ SG_ 268 vcu_autolight_en "0: Autolight disale
+1: Autolight Enable";
+CM_ SG_ 268 vcu_setspeaker_hmi "0: Disable Speaker
+1: Enable Speaker";
+CM_ SG_ 268 vcu_timeformat_hmi "0: time format 24h
+1: 12h ";
+CM_ SG_ 268 vcu_turnleftlight_hmi "Signal turnleft light to HMI blink  led turnleft in 350ms";
+CM_ SG_ 268 vcu_charrgerstatus_hmi "0: Not have charger
+1: Havecharger
+2: Charger fail";
+CM_ SG_ 258 vcu_input_sw_mkey "1: Press SideStand down
+0: Not SideStand";
+CM_ SG_ 258 vcu_block_status "0: not use
+1: block
+2: unblock";
+CM_ SG_ 258 vcu_sidestandsignal "Sidestand status
+0: In active
+1: Active";
+CM_ SG_ 258 vcu_chargingmode "0: Not charging
+1: Charging enable
+";
+CM_ SG_ 258 vcu_drivingmode "0: Ecomode
+1: Sportmode
+2: Forward mode
+3: Reverse mode";
+CM_ SG_ 258 vcu_evstatus "0: Locked mode
+1: Standby mode
+2: Parking mode
+3: Run mode";
+CM_ SG_ 258 vcu_alarmactive "VCU in alarm signal :
+0x00: is not active
+0x01: Antitheif is active
+0x02: Lock is active
+0x03: Unlock is active
+0x04: Finding is active";
+CM_ SG_ 257 vcu_commreq_chg "1: start sending periodic CAN
+0: stop sending periodic CAN";
+CM_ SG_ 257 statusRollingCounter_CBOX "0,1,2,3,0,1,2,3. it counts if all of the processes in the microcontroller are working properly.  It should stop counting if a process gets stuck";
+CM_ SG_ 256 vcu_swsubminor_version "Version - application_subminor";
+CM_ SG_ 256 vcu_swminor_version "Version - application_minor";
+CM_ SG_ 256 vcu_swmajor_version "Version - application_major";
+CM_ SG_ 256 vcu_hardware_version "0x02: V7Sport
+0x03: V9Sport
+0x05: V9 Sport Ltd";
+CM_ SG_ 256 vcu_bootminor_version "Version - bootloader";
+CM_ SG_ 256 vcu_bootmajor "Version - bootloader";
+CM_ SG_ 256 vcu_Serialnumber "Serialnumber per date";
+CM_ SG_ 256 vcu_manufacturedate "Field Bits Used Format Allowable Values
+Day 0...4 5 bit binary value 1 - 31 (corresponds to date)
+Month 5...8 4 bit binary value 1 - 12 (corresponds to month number)
+Year 9...15 7 bit binary value 0 - 127 (corresponds to year biased by 1980)";
+CM_ SG_ 1025 hmi_rollingcounter_sig "0,1,2,3,0,1,2,3.   it counts if all of the processes in the microcontroller are working properly.  It should stop counting if a process gets stuck";
+CM_ SG_ 1024 hmi_hardwareversion "0x02: V7Sport
+0x03: V9Sport
+0x05: V9 Sport Ltd";
+CM_ SG_ 1024 hmi_Serialnumber "per day of manufacturer serial.";
+CM_ SG_ 1024 hmi_Manufacturedate "Field Bits Used Format Allowable Values
+Day 0...4 5 bit binary value 1 - 31 (corresponds to date)
+Month 5...8 4 bit binary value 1 - 12 (corresponds to month number)
+Year 9...15 7 bit binary value 0 - 127 (corresponds to year biased by 1980)";
+CM_ BO_ 514 "0 Not fail, 1: Failure";
+CM_ SG_ 514 mcu_tempsensorfail "Fail temp sensor of MCU
+0: Not faile
+1: Fail";
+CM_ SG_ 514 mcu_eeromfail "MCU errom fail
+0: Not fail
+1: Fail";
+CM_ SG_ 514 mcu_overvoltprotect "Over voltage proection error:
+0: Norrmal
+1: faile";
+CM_ SG_ 514 mcu_undervoltprotection "Under voltage protection
+0: Norrmal
+1: faile";
+CM_ SG_ 513 mcu_changemode_ack "0: don't care
+1: ready to running
+2: ready to parking/off";
+CM_ SG_ 513 mcu_mode "0: Parking mode, 1: Driving mode";
+CM_ SG_ 513 mcu_totalODO "Total ODO of MCU to ( Unit: 100m)";
+CM_ SG_ 513 mcu_brakesignal "0: Not active
+1: Active";
+CM_ SG_ 513 mcu_powerrate "Power rate of motor control";
+CM_ SG_ 513 mcu_speedkmh "Speed of motor control in rpm";
+CM_ SG_ 512 mcu_hardware_version "0x02: V7Sport
+0x03: V9Sport
+0x05: V9 Sport Ltd";
+CM_ SG_ 512 mcu_serialnumber "per day of manufacturer serial.";
+CM_ SG_ 512 mcu_manufacturedate "Field Bits Used Format Allowable Values
+Day 0...4 5 bit binary value 1 - 31 (corresponds to date)
+Month 5...8 4 bit binary value 1 - 12 (corresponds to month number)
+Year 9...15 7 bit binary value 0 - 127 (corresponds to year biased by 1980)";
+CM_ BO_ 272 "VCU BMS Mode Command ";
+CM_ SG_ 272 vcu_control_BMS_shutdown "Signal for VCU to shutdown BMS:
+0: Normal
+1: Shutdown";
+CM_ SG_ 272 vcu_controloffpfet_bms "Cbox Control BMS Pfet in sleep mode
+0:On
+1:Off";
+CM_ SG_ 272 vcu_resulttrust_bms3 "Trust Result";
+CM_ SG_ 272 vcu_resulttrust_bms2 "Trust Result";
+CM_ SG_ 272 vcu_resulttrust_bms1 "Trust Result";
+CM_ SG_ 272 vcu_resulttrust_bms0 "Trust Result";
+CM_ SG_ 272 vcu_statustrust_bms3 "None            (0)";
+CM_ SG_ 272 vcu_statustrust_bms2 "None            (0)";
+CM_ SG_ 272 vcu_statustrust_bms1 "None            (0)";
+CM_ SG_ 272 vcu_statustrust_bms0 "None            (0)";
+CM_ SG_ 272 vcu_control_TBD1 "TBD";
+CM_ BO_ 2 "Message use for ISO15765 of  BLG";
+CM_ SG_ 2 bms_iso_signal "Signal use for ISO15765 of BMS0";
+CM_ BO_ 768 "This message is used by the battery to control the system.";
+CM_ SG_ 768 bms_controlSysMaxChgCurrent "sum) System Available max charging current value.";
+CM_ SG_ 768 bms_controlSysMaxDsgCurrent "sum) System Available max discharging current value.";
+CM_ SG_ 768 bms_controlSysMaxChgPower "sum) System Available max charging power value.";
+CM_ SG_ 768 bms_controlSysMaxDsgPower "sum) System Available max discharging power value.";
+CM_ BO_ 769 "Status of Chariging status";
+CM_ SG_ 769 bms_chargingVoltageLimit "Min) Voltage limitation value for charging (in case of fault, this value will be zero)";
+CM_ SG_ 769 bms_chargingCurrentLimit "Min) Current limitation value for charging (in case of fault, this value will be zero)";
+CM_ SG_ 769 bms_chargingFullyChargedSts "Or) Fully charged status. ";
+CM_ SG_ 769 bms_controlModeCharger "Sum) TBD";
+CM_ SG_ 769 bms_endCurrentCharge "Sum) TBD";
+CM_ SG_ 769 bms_trickleCurrentCharger "Sum) TBD";
+CM_ SG_ 769 bms_chargingDiagCharger "Or) DiagCharger";
+CM_ BO_ 771 "Status of BMS.";
+CM_ SG_ 771 bms_wakeupSource "Wakeup source of BMS:
+1: HW switch
+0: Self wake by RTC";
+CM_ SG_ 771 bms_statusIgnitionRecognition "And) Status that BMS recognizes ignition pin";
+CM_ SG_ 771 bms_statusRollingCounter "Master) 0,1,2,3 -> 0,1,2,3.   It is rolling count means to BMS processing is well.  It will stop counting, if BMS processing gets stuck";
+CM_ SG_ 771 bms_statusBmsUserMode "Sel) User mode of the battery pack.";
+CM_ SG_ 771 bms_statusBmsOpState "Sel) Operation mode of the battery pack.";
+CM_ SG_ 771 bms_statusCurrentDirection "Sel) Current(Amps) Direction";
+CM_ SG_ 771 bms_stsDiagCellTopPriorResult "Max) Most Severe Cell Diagnosis Result based on priority of diagnosis item and diagnosis level.";
+CM_ SG_ 771 bms_stsRentalFuncEnable "And) Rental Function Enable";
+CM_ SG_ 771 bms_stsAuthFuncEnable "And) Authentication Function Enable";
+CM_ BO_ 772 "Operating state of the cell balancing circuit of the battery pack.";
+CM_ SG_ 772 bms_statusCB12 "Or) Status of cell balancing circuit.";
+CM_ SG_ 772 bms_statusCB02 "Or) Status of cell balancing circuit.";
+CM_ SG_ 772 bms_statusCB01 "Or) Status of cell balancing circuit.";
+CM_ SG_ 772 bms_statusCB04 "Or) Status of cell balancing circuit.";
+CM_ SG_ 772 bms_statusCB03 "Or) Status of cell balancing circuit.";
+CM_ SG_ 772 bms_statusCB06 "Or) Status of cell balancing circuit.";
+CM_ SG_ 772 bms_statusCB05 "Or) Status of cell balancing circuit.";
+CM_ SG_ 772 bms_statusCB08 "Or) Status of cell balancing circuit.";
+CM_ SG_ 772 bms_statusCB07 "Or) Status of cell balancing circuit.";
+CM_ BO_ 773 "Operating state of the cell balancing circuit of the battery pack.";
+CM_ SG_ 773 bms_statusCB14 "Or) Status of cell balancing circuit.";
+CM_ SG_ 773 bms_statusCB13 "Or) Status of cell balancing circuit.";
+CM_ BO_ 774 "Diagnostic information of the Cell.";
+CM_ SG_ 774 bms_demOverVoltageCell "Max) Diagnosis - Over voltage Cell.";
+CM_ SG_ 774 bms_demOverVoltagePack "Max) Diagnosis - Over voltage Pack.";
+CM_ SG_ 774 bms_demUnderVoltageCell "Max) Diagnosis - Under voltage Cell.";
+CM_ SG_ 774 bms_demUnderVoltagePack "Max) Diagnosis - Under voltage Pack.";
+CM_ SG_ 774 bms_demOverCurrentChg "Max) Diagnosis - Over charge current.";
+CM_ SG_ 774 bms_demOverCurrentDis "Max) Diagnosis - Over discharge current.";
+CM_ SG_ 774 bms_demOverTemperatureChg "Max) Diagnosis - Over temperature in charging.";
+CM_ SG_ 774 bms_demOverTemperatureDis "Max) Diagnosis - Over temperature in discharging.";
+CM_ SG_ 774 bms_demUnderTemperatureChg "Max) Diagnosis - Under temperature in charging.";
+CM_ SG_ 774 bms_demUnderTemperatureDis "Max) Diagnosis - Under temperature in discharging.";
+CM_ SG_ 774 bms_demImbCellChg "Max) Diagnosis - Cell voltage imbalance in Charging.";
+CM_ SG_ 774 bms_demImbCellRest "Max) Diagnosis - Cell voltage imbalance in Rest.";
+CM_ SG_ 774 bms_demImbCellTemperature "Max) Diagnosis - Imbalance Cell Temperature";
+CM_ SG_ 774 bms_demImbCellSOC "Max) Diagnosis - Cell SOC imbalance.";
+CM_ BO_ 775 "Diagnostic information of the Cell.";
+CM_ SG_ 775 bms_demOverVoltageCellCount "Max) Diagnosis - Over voltage Cell Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 775 bms_demUnderVoltageCellCount "Max) Diagnosis - Under voltage Cell Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 775 bms_demOverCurrentChgCount "Max) Diagnosis - Over charge current Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 775 bms_demOverCurrentDisCount "Max) Diagnosis - Over discharge current Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 775 bms_demOverTemperatureChgCount "Max) Diagnosis - Over temperature in charging Fault Count. If count reaches maximum value, it is sustained, no overflow.";
+CM_ SG_ 775 bms_demUnderTemperatureChgCount "Max) Diagnosis - Under temperature in charging Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 775 bms_demOverTemperatureDisCount "Max) Diagnosis - Over temperature in discharging Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 775 bms_demUnderTemperatureDisCount "Max) Diagnosis - Under temperature in discharging Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ BO_ 776 "Diagnostic information of the Cell.";
+CM_ SG_ 776 bms_demImbCellChgCount "Max) Diagnosis - Cell voltage imbalance in Charging Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 776 bms_demImbCellRestCount "Max) Diagnosis - Cell voltage imbalance in Rest Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 776 bms_demImbCellTemperatureCount "Max) Diagnosis - Cell Temperature imbalance Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 776 bms_demOverVoltagePackCount "Max) Diagnosis - Over voltage Pack Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 776 bms_demUnderVoltagePackCount "Max) Diagnosis - Under voltage Pack Fault Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 776 bms_demImbCellSOCCount "Max) Diagnosis - Cell SOC imbalance Fault Count. If count reach to maximum value, it is sustained, no overflow. ";
+CM_ BO_ 777 "Status of battery pack.";
+CM_ SG_ 777 bms_statusPowerCFET "And) control status of C-FET";
+CM_ SG_ 777 bms_statusPowerDFET "And) control status of D-FET";
+CM_ SG_ 777 bms_statusLowCapacityAlarm "Or) Alarm - Low capacity (SOC < 10%)";
+CM_ SG_ 777 bms_statusPrechargeFET "And) control status of Precharge-FET";
+CM_ SG_ 777 bms_statusPackVoltageBAT "Avg) Sum of all series cell voltage.";
+CM_ SG_ 777 bms_statusTBD1 "Sum) TBD";
+CM_ SG_ 777 bms_statusPackCurrent "Sum) Measuring pack current,  charging is positive, discharging is negative.";
+CM_ BO_ 778 "SOH, RSOC, Cycle count, ... of battery pack.";
+CM_ SG_ 778 bms_socFullChargeCapacityAh "Min) Full Charge Capacity Ah.";
+CM_ SG_ 778 bms_socRemainingCapacityAh "Min) Remaining Capacity Ah.";
+CM_ SG_ 778 bms_socRSOC "Min) Relative State Of Charge.";
+CM_ SG_ 778 bms_socSOH "Min) State of health.";
+CM_ SG_ 778 bms_socCycleCount "Max) Cycle Count";
+CM_ SG_ 778 bms_socRemainingChargingTime "Min) Remaining Charging Time";
+CM_ BO_ 779 "Accumulated Discharge/Charge Capacity";
+CM_ SG_ 779 bms_AccumChargeCapacityAh "Min) Accumulated Charge Capacity(Ah)";
+CM_ SG_ 779 bms_AccumDischargeCapacityAh "Min) Accumulated Discharge Capacity(Ah)";
+CM_ BO_ 780 "Diagnostic information of the Aisc.";
+CM_ SG_ 780 bms_demAsicOverVoltage "Max) Diagnosis - Asic Over Voltage";
+CM_ SG_ 780 bms_demAsicUnderVoltage "Max) Diagnosis - Asic Under Voltage";
+CM_ SG_ 780 bms_demAsicOverCurrentDis "Max) Diagnosis - Asic Discharge Over Current";
+CM_ SG_ 780 bms_demAsicShortCurrent "Max) Diagnosis - Asic Short Current";
+CM_ SG_ 780 bms_demAsicDeviceXReady "Max) Diagnosis - Asic Device X Ready";
+CM_ SG_ 780 bms_demAsicOverRide "Max) Diagnosis - Asic Over Ride";
+CM_ BO_ 781 "Diagnostic information of the Aisc.";
+CM_ SG_ 781 bms_demAsicOverVoltageCount "Max) Diagnosis - Asic Over Voltage Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 781 bms_demAsicUnderVoltageCount "Max) Diagnosis - Asic Under Voltage Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 781 bms_demAsicOverCurrentDisCount "Max) Diagnosis - Asic Discharge Over Current Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 781 bms_demAsicShortCurrentCount "Max) Diagnosis - Asic Short Current Occured Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 781 bms_demAsicDeviceXReadyCount "Max) Diagnosis - Asic Device X Ready Occurred Count";
+CM_ SG_ 781 bms_demAsicOverRideCount "Max) Diagnosis - Asic Over Ride Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ BO_ 784 "Cell voltage.";
+CM_ SG_ 784 bms_statusVoltageCellAvg "Avg) Average cell voltage.";
+CM_ SG_ 784 bms_statusVoltageCellMin "Min) minimum cell voltage.";
+CM_ SG_ 784 bms_statusVoltageCellMinNo "Avg) minimum cell voltage number";
+CM_ SG_ 784 bms_statusVoltageCellMaxNo "Avg) maximum cell voltage number";
+CM_ BO_ 785 "Cell voltage.";
+CM_ SG_ 785 bms_statusVoltageCell01 "Avg) Cell voltage.";
+CM_ SG_ 785 bms_statusVoltageCell02 "Avg) Cell voltage.";
+CM_ SG_ 785 bms_statusVoltageCell03 "Avg) Cell voltage.";
+CM_ SG_ 785 bms_statusVoltageCell04 "Avg) Cell voltage.";
+CM_ BO_ 786 "Cell voltage.";
+CM_ SG_ 786 bms_statusVoltageCell05 "Avg) Cell voltage.";
+CM_ SG_ 786 bms_statusVoltageCell06 "Avg) Cell voltage.";
+CM_ SG_ 786 bms_statusVoltageCell07 "Avg) Cell voltage.";
+CM_ SG_ 786 bms_statusVoltageCell08 "Avg) Cell voltage.";
+CM_ BO_ 787 "Cell voltage.";
+CM_ SG_ 787 bms_statusVoltageCell09 "Avg) Cell voltage.";
+CM_ SG_ 787 bms_statusVoltageCell10 "Avg) Cell voltage.";
+CM_ SG_ 787 bms_statusVoltageCell11 "Avg) Cell voltage.";
+CM_ SG_ 787 bms_statusVoltageCell12 "Avg) Cell voltage.";
+CM_ BO_ 788 "Cell voltage.";
+CM_ SG_ 788 bms_statusVoltageCell13 "Avg) Cell voltage.";
+CM_ SG_ 788 bms_statusVoltageCell14 "Avg) Cell voltage.";
+CM_ BO_ 789 "Diagnostic information of the BMS.";
+CM_ SG_ 789 bms_demBMSCFET "Max) Diagnosis - BMS CFET";
+CM_ SG_ 789 bms_demBMSDFET "Max) Diagnosis - BMS DFET";
+CM_ SG_ 789 bms_demBMSPFET "Max) Diagnosis - BMS PFET";
+CM_ SG_ 789 bms_demBMSASICComm "Max) Diagnosis - BMS ASIC Comm";
+CM_ SG_ 789 bms_demBMSASICShutdown "Max) Diagnosis - BMS ASIC Shutdowm";
+CM_ SG_ 789 bms_demBMSPFET2 "Max) Diagnosis - BMS PFET2 ( for External Short )";
+CM_ BO_ 790 "Diagnostic information of the BMS.";
+CM_ SG_ 790 bms_demBMSCFETCount "Max) Diagnosis - BMS CFET  Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 790 bms_demBMSDFETCount "Max) Diagnosis - BMS DFET Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 790 bms_demBMSPFETCount "Max) Diagnosis - BMS PFET Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 790 bms_demBMSASICCommCount "Max) Diagnosis - BMS ASIC Comm Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 790 bms_demBMSASICShutdownCount "Max) Diagnosis - BMS ASIC Shutdown Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 790 bms_demBMSPFET2Count "Max) Diagnosis - BMS PFET2 Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ BO_ 791 "Diagnostic information of the Pack.";
+CM_ SG_ 791 bms_demPackFuseBlow "Max) Diagnosis - Pack Fuse Blow";
+CM_ SG_ 791 bms_demPackFuseResistance "Max) Diagnosis - Pack Fuse Resistance Current";
+CM_ SG_ 791 bms_demPackFuseOverCurrent "Max) Diagnosis - Pack Fuse Over Current";
+CM_ SG_ 791 bms_demPackFETTemperature "Max) Diagnosis - Pack FET Temperature(Over)";
+CM_ BO_ 792 "Diagnostic information of the Pack.";
+CM_ SG_ 792 bms_demPackFuseBlowCount "Max) Diagnosis - Pack Fuse Blow Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 792 bms_demPackFuseResistanceCount "Max) Diagnosis - Pack Fuse Resistance Current Occurred Count";
+CM_ SG_ 792 bms_demPackFuseOverCurrentCount "Max) Diagnosis - Pack Fuse Over Current Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ SG_ 792 bms_demPackFETTemperatureCount "Max) Diagnosis - Pack FET Temperature(Over) Occurred Count. If count reach to maximum value, it is sustained, no overflow.";
+CM_ BO_ 793 "Pack life time mileage data";
+CM_ SG_ 793 bms_mileage_data "Max) Pack life time mileage data";
+CM_ SG_ 793 bms_mileageTBD1 "Max) TBD";
+CM_ BO_ 800 "Cell temperature inside the battery pack.";
+CM_ SG_ 800 bms_statusTemperatureCellAvg "Avg) Average Temperature - cell.";
+CM_ SG_ 800 bms_statusTemperatureCellMin "Min) Minimum Temperature - cell.";
+CM_ SG_ 800 bms_statusTemperatureCellMinNo "Avg) Minimum Temperature Number - cell.";
+CM_ SG_ 800 bms_statusTemperatureCellMax "Max) Maximum Temperature - cell.";
+CM_ SG_ 800 bms_statusTemperatureCellMaxNo "Avg) Maximum Temperature Number - cell.";
+CM_ BO_ 801 "Cell temperature inside the battery pack.";
+CM_ SG_ 801 bms_statusTemperatureCell1 "Avg) Temperature - cell.";
+CM_ SG_ 801 bms_statusTemperatureCell2 "Avg) Temperature - cell.";
+CM_ SG_ 801 bms_statusTemperatureCell3 "Avg) Temperature - cell.";
+CM_ BO_ 802 "Temperature of the components in the battery pack.";
+CM_ SG_ 802 bms_statusTemperatureCB1 "Avg) Temperature - cell balancing circuit.";
+CM_ SG_ 802 bms_statusTemperatureCB2 "Avg) Temperature - cell balancing circuit.";
+CM_ SG_ 802 bms_statusTemperatureFET1 "Avg) Temperature - Power FET Temperature";
+CM_ SG_ 802 bms_statusTemperatureFET2 "Avg) Temperature - Power FET Temperature";
+CM_ BO_ 803 "-";
+CM_ SG_ 803 bms_rentalinfo_remaintime "Min) Rental Remain Time";
+CM_ SG_ 803 bms_rentalinfo_bonustime "Min) Bonus Charge";
+CM_ SG_ 803 bms_rentalinfo_expired "Or) Rental Expired";
+CM_ SG_ 803 bms_rentalinfoTBD1 "Min) TBD";
+CM_ SG_ 803 bms_rentalinfoTBD2 "Min) TBD";
+CM_ BO_ 804 "Customer ID: 8 low bytes";
+CM_ SG_ 804 bms_rentalinfo_customer1 "Master) CustomerID1";
+CM_ SG_ 804 bms_rentalinfo_customer12 "Master) CustomerID2";
+CM_ BO_ 805 "Customer ID: 8 high bytes";
+CM_ SG_ 805 bms_rentalinfo_customer2 "Master) CustomerID3";
+CM_ SG_ 805 bms_rentalinfo_customer22 "Master) CustomerID4";
+CM_ BO_ 806 "TrustInfo";
+CM_ SG_ 806 bms_statustrust_bms1charger "Sel) Trust Status";
+CM_ SG_ 806 bms_statustrust_bms0charger "Sel) Trust Status";
+CM_ SG_ 806 bms_statustrust_bms3charger "Sel) Trust Status";
+CM_ SG_ 806 bms_statustrust_bms2charger "Sel) Trust Status";
+CM_ SG_ 806 bms_resulttrust_bms1charger "Sel) Trust Result";
+CM_ SG_ 806 bms_resulttrust_bms0charger "Sel) Trust Result";
+CM_ SG_ 806 bms_resulttrust_bms3charger "Sel) Trust Result";
+CM_ SG_ 806 bms_resulttrust_bms2charger "Sel) Trust Result";
+CM_ SG_ 806 bms_statustrust_bms1cbox "Sel) Trust Status : Master BMS BMS2VHC Fail Flag Status for sharing to slave";
+CM_ SG_ 806 bms_statustrust_bms0cbox "Sel) Trust Status : Master BMS BMS2VHC Fail Flag Status for sharing to slave";
+CM_ SG_ 806 bms_statustrust_bms3cbox "Sel) Trust Status";
+CM_ SG_ 806 bms_statustrust_bms2cbox "Sel) Trust Status";
+CM_ SG_ 806 bms_resulttrust_bms1cbox "Sel) Trust Result";
+CM_ SG_ 806 bms_resulttrust_bms0cbox "Sel) Trust Result";
+CM_ SG_ 806 bms_resulttrust_bms3cbox "Sel) Trust Result";
+CM_ SG_ 806 bms_resulttrust_bms2cbox "Sel) Trust Result";
+CM_ BO_ 807 "Parallel Diagnosis";
+CM_ SG_ 807 bms_demParallelOvrdSlave "Max) Diagnosis - Parallel Overide Slave";
+CM_ SG_ 807 bms_demParallelOvrdMaster "Max) Diagnosis - Parallel Overide Master";
+CM_ SG_ 807 bms_demParallelDiffVoltage "Max) Diagnosis - Parallel Diff Voltage";
+CM_ SG_ 807 bms_demParallelDiffCurrent "Max) Diagnosis - Parallel Diff Current";
+CM_ SG_ 807 bms_demParallelDiffSOC "Max) Diagnosis - Parallel Diff SOC";
+CM_ SG_ 807 bms_demParallelDiffTemp "Max) Diagnosis - Parallel Diff Temp";
+CM_ SG_ 807 bms_demParallelDiffVer "Max) Diagnosis - Parallel Diff Ver";
+CM_ SG_ 807 bms_demParallelDiffSOH "Max) Diagnosis - Parallel Diff SOH";
+CM_ BO_ 816 "Parallel Satus";
+CM_ SG_ 816 bms_statusID "Master) ID";
+CM_ SG_ 816 bms_statusISOTPID "Master) ISOTP ID";
+CM_ SG_ 816 bms_statusPackTimeout "BitOr) (bit field) Pack Timeout. Pack0,1,2,3";
+CM_ SG_ 816 bms_statusMasterAuthSync "Or) Master Auth Sync";
+CM_ SG_ 816 bms_statusParallelTBD1 "Sync) Diag Msater";
+CM_ SG_ 816 bms_statusParallelDiagPack1 "Sel) Diag Pack1";
+CM_ SG_ 816 bms_statusParallelDiagPack0 "Sel) Diag Pack0";
+CM_ BO_ 831 "Version of battery pack or product information";
+CM_ SG_ 831 bms_versionSoftwareMinor "Min) Version - application_minor";
+CM_ SG_ 831 bms_versionSoftwareSubminor "Min) Version - application_subminor";
+CM_ SG_ 831 bms_versionBootloaderMajor "Min) Version - bootloader";
+CM_ SG_ 831 bms_versionSoftwareMajor "Min) Version - application_major";
+CM_ SG_ 831 bms_versionBootloaderMinor "Min) Version - bootloader";
+CM_ SG_ 831 bms_versionBootloaderSubminor "Min) Version - bootloader";
+CM_ SG_ 831 bms_versionHardwareMajor "Min) Version - BMS HW";
+CM_ SG_ 831 bms_versionTBD1 "Sync) TBD";
+CM_ SG_ 831 bms_versionManufacturerDate "Min) Manufactuer Date";
+CM_ SG_ 831 bms_versionManufacturerSerialNo "Min) manufacturer serial number per day";
+CM_ BO_ 1762 "-";
+CM_ SG_ 1762 frpReqIndex_bms "Boot and Manufactuer Signal of LGC BMS";
+CM_ SG_ 1762 frpReqData1_bms "Boot and Manufactuer Signal of LGC BMS";
+CM_ SG_ 1762 frpReqData2_bms "Boot and Manufactuer Signal of LGC BMS";
+CM_ SG_ 1762 frpReqData3_bms "Boot and Manufactuer Signal of LGC BMS";
+CM_ SG_ 1762 frpReqData4_bms "Boot and Manufactuer Signal of LGC BMS";
+CM_ SG_ 1762 frpReqData5_bms "Boot and Manufactuer Signal of LGC BMS";
+BA_DEF_ SG_  "GenSigStartValue" INT 0 0;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ SG_  "SNARequired" ENUM  "Required","NotRequired";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ SG_  "OriginatingECU" STRING ;
+BA_DEF_ SG_  "GatewayedSignal" INT 0 1;
+BA_DEF_ SG_  "FieldType" STRING ;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Fixed Periodic","Enabled Periodic","NoMsgSendType","Event";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 65000;
+BA_DEF_ BO_  "DebugMessageTransmitAlways" INT 0 1;
+BA_DEF_ BO_  "DebugMessage" INT 0 1;
+BA_DEF_  "BusName" STRING ;
+BA_DEF_  "BusID" INT 0 255;
+BA_DEF_  "BusECUIdLength" INT 5 6;
+BA_DEF_ BO_  "receiveMsgFromEthernet" INT 0 1;
+BA_DEF_ BO_  "sendMsgToEthernet" INT 0 1;
+BA_DEF_ BO_  "targetGw" ENUM  "BPG","BGW","IVI","SDCM","ALL";
+BA_DEF_ BO_  "transmitMsgRateEthernetMs" ENUM  "10","100","1000";
+BA_DEF_ BU_  "NmDefaultAddress" ENUM  "USE_PRIMARY_ADDRESS","USE_SECONDARY_ADDRESS";
+BA_DEF_ BU_  "NmSecondaryAddress" HEX 0 63;
+BA_DEF_ BU_  "NmHasSecondaryAddress" ENUM  "TRUE","FALSE";
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 0;
+BA_DEF_ BO_  "cycleMilliSecs100" INT 0 100;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "SNARequired" "Required";
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "OriginatingECU" "";
+BA_DEF_DEF_  "GatewayedSignal" 0;
+BA_DEF_DEF_  "FieldType" "";
+BA_DEF_DEF_  "GenMsgSendType" "Fixed Periodic";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "DebugMessageTransmitAlways" 0;
+BA_DEF_DEF_  "DebugMessage" 0;
+BA_DEF_DEF_  "BusName" "";
+BA_DEF_DEF_  "BusID" 0;
+BA_DEF_DEF_  "BusECUIdLength" 0;
+BA_DEF_DEF_  "receiveMsgFromEthernet" 0;
+BA_DEF_DEF_  "sendMsgToEthernet" 0;
+BA_DEF_DEF_  "targetGw" "BPG";
+BA_DEF_DEF_  "transmitMsgRateEthernetMs" "10";
+BA_DEF_DEF_  "NmDefaultAddress" "USE_PRIMARY_ADDRESS";
+BA_DEF_DEF_  "NmSecondaryAddress" 0;
+BA_DEF_DEF_  "NmHasSecondaryAddress" "TRUE";
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "cycleMilliSecs100" 0;
+BA_DEF_DEF_  "DBName" "";
+BA_ "DBName" "";
+BA_ "GenMsgCycleTime" BO_ 262 500;
+BA_ "cycleMilliSecs100" BO_ 262 5;
+BA_ "GenMsgCycleTime" BO_ 795 500;
+BA_ "GenMsgCycleTime" BO_ 794 500;
+BA_ "GenMsgCycleTime" BO_ 782 150;
+BA_ "GenMsgSendType" BO_ 1280 0;
+BA_ "GenMsgCycleTime" BO_ 1280 1000;
+BA_ "GenMsgCycleTime" BO_ 1282 150;
+BA_ "GenMsgSendType" BO_ 1282 0;
+BA_ "GenMsgCycleTime" BO_ 1283 500;
+BA_ "GenMsgSendType" BO_ 1283 0;
+BA_ "GenMsgCycleTime" BO_ 1800 200;
+BA_ "GenMsgSendType" BO_ 1800 0;
+BA_ "GenMsgCycleTime" BO_ 51 10;
+BA_ "GenMsgSendType" BO_ 51 0;
+BA_ "GenMsgCycleTime" BO_ 1922 500;
+BA_ "GenMsgSendType" BO_ 1922 0;
+BA_ "GenMsgCycleTime" BO_ 1923 0;
+BA_ "GenMsgCycleTime" BO_ 1928 5000;
+BA_ "GenMsgSendType" BO_ 1928 0;
+BA_ "GenMsgCycleTime" BO_ 1927 5000;
+BA_ "GenMsgSendType" BO_ 1927 0;
+BA_ "GenMsgCycleTime" BO_ 1926 5000;
+BA_ "GenMsgSendType" BO_ 1926 0;
+BA_ "GenMsgCycleTime" BO_ 1925 5000;
+BA_ "GenMsgSendType" BO_ 1925 0;
+BA_ "GenMsgCycleTime" BO_ 1924 5000;
+BA_ "GenMsgSendType" BO_ 1924 0;
+BA_ "GenMsgCycleTime" BO_ 1941 1000;
+BA_ "GenMsgSendType" BO_ 1941 0;
+BA_ "GenMsgCycleTime" BO_ 1921 500;
+BA_ "GenMsgSendType" BO_ 1921 0;
+BA_ "GenMsgSendType" BO_ 1027 0;
+BA_ "GenMsgCycleTime" BO_ 1027 500;
+BA_ "GenMsgSendType" BO_ 1026 0;
+BA_ "GenMsgCycleTime" BO_ 1026 500;
+BA_ "GenMsgCycleTime" BO_ 271 500;
+BA_ "GenMsgSendType" BO_ 271 0;
+BA_ "GenMsgCycleTime" BO_ 295 500;
+BA_ "GenMsgSendType" BO_ 295 0;
+BA_ "GenMsgCycleTime" BO_ 268 150;
+BA_ "GenMsgSendType" BO_ 268 0;
+BA_ "GenMsgSendType" BO_ 258 0;
+BA_ "GenMsgCycleTime" BO_ 258 150;
+BA_ "GenMsgSendType" BO_ 257 0;
+BA_ "GenMsgCycleTime" BO_ 257 500;
+BA_ "GenMsgSendType" BO_ 256 0;
+BA_ "GenMsgCycleTime" BO_ 256 1000;
+BA_ "GenMsgCycleTime" BO_ 1025 500;
+BA_ "GenMsgSendType" BO_ 1025 0;
+BA_ "GenMsgCycleTime" BO_ 1024 1000;
+BA_ "GenMsgSendType" BO_ 1024 0;
+BA_ "GenMsgCycleTime" BO_ 514 500;
+BA_ "GenMsgSendType" BO_ 514 0;
+BA_ "GenMsgCycleTime" BO_ 513 150;
+BA_ "GenMsgSendType" BO_ 513 0;
+BA_ "GenMsgCycleTime" BO_ 512 1000;
+BA_ "GenMsgSendType" BO_ 512 0;
+BA_ "GenMsgCycleTime" BO_ 272 150;
+BA_ "GenMsgSendType" BO_ 272 0;
+BA_ "GenMsgCycleTime" BO_ 768 150;
+BA_ "GenMsgSendType" BO_ 768 0;
+BA_ "GenMsgCycleTime" BO_ 769 1000;
+BA_ "GenMsgSendType" BO_ 769 0;
+BA_ "GenMsgCycleTime" BO_ 771 150;
+BA_ "GenMsgSendType" BO_ 771 0;
+BA_ "GenMsgCycleTime" BO_ 772 1000;
+BA_ "GenMsgSendType" BO_ 772 0;
+BA_ "GenMsgCycleTime" BO_ 773 1000;
+BA_ "GenMsgSendType" BO_ 773 0;
+BA_ "GenMsgCycleTime" BO_ 774 150;
+BA_ "GenMsgSendType" BO_ 774 0;
+BA_ "GenMsgCycleTime" BO_ 775 1000;
+BA_ "GenMsgSendType" BO_ 775 0;
+BA_ "GenMsgCycleTime" BO_ 776 1000;
+BA_ "GenMsgSendType" BO_ 776 0;
+BA_ "GenMsgCycleTime" BO_ 777 150;
+BA_ "GenMsgSendType" BO_ 777 0;
+BA_ "GenMsgCycleTime" BO_ 778 1000;
+BA_ "GenMsgSendType" BO_ 778 0;
+BA_ "GenMsgCycleTime" BO_ 779 1000;
+BA_ "GenMsgSendType" BO_ 779 0;
+BA_ "GenMsgCycleTime" BO_ 780 500;
+BA_ "GenMsgSendType" BO_ 780 0;
+BA_ "GenMsgCycleTime" BO_ 781 1000;
+BA_ "GenMsgSendType" BO_ 781 0;
+BA_ "GenMsgCycleTime" BO_ 784 500;
+BA_ "GenMsgSendType" BO_ 784 0;
+BA_ "GenMsgCycleTime" BO_ 785 500;
+BA_ "GenMsgSendType" BO_ 785 0;
+BA_ "GenMsgCycleTime" BO_ 786 500;
+BA_ "GenMsgSendType" BO_ 786 0;
+BA_ "GenMsgCycleTime" BO_ 787 500;
+BA_ "GenMsgSendType" BO_ 787 0;
+BA_ "GenMsgCycleTime" BO_ 788 500;
+BA_ "GenMsgSendType" BO_ 788 0;
+BA_ "GenMsgCycleTime" BO_ 789 500;
+BA_ "GenMsgSendType" BO_ 789 0;
+BA_ "GenMsgCycleTime" BO_ 790 1000;
+BA_ "GenMsgSendType" BO_ 790 0;
+BA_ "GenMsgCycleTime" BO_ 791 500;
+BA_ "GenMsgSendType" BO_ 791 0;
+BA_ "GenMsgCycleTime" BO_ 792 1000;
+BA_ "GenMsgSendType" BO_ 792 0;
+BA_ "GenMsgCycleTime" BO_ 793 1000;
+BA_ "GenMsgSendType" BO_ 793 0;
+BA_ "GenMsgCycleTime" BO_ 800 1000;
+BA_ "GenMsgSendType" BO_ 800 0;
+BA_ "GenMsgCycleTime" BO_ 801 1000;
+BA_ "GenMsgSendType" BO_ 801 0;
+BA_ "GenMsgCycleTime" BO_ 802 500;
+BA_ "GenMsgSendType" BO_ 802 0;
+BA_ "GenMsgCycleTime" BO_ 803 1000;
+BA_ "GenMsgSendType" BO_ 803 0;
+BA_ "GenMsgCycleTime" BO_ 804 1000;
+BA_ "GenMsgSendType" BO_ 804 0;
+BA_ "GenMsgCycleTime" BO_ 805 1000;
+BA_ "GenMsgSendType" BO_ 805 0;
+BA_ "GenMsgCycleTime" BO_ 806 150;
+BA_ "GenMsgSendType" BO_ 806 0;
+BA_ "GenMsgCycleTime" BO_ 807 500;
+BA_ "GenMsgSendType" BO_ 807 0;
+BA_ "GenMsgCycleTime" BO_ 816 500;
+BA_ "GenMsgSendType" BO_ 816 0;
+BA_ "GenMsgCycleTime" BO_ 831 1000;
+BA_ "GenMsgSendType" BO_ 831 0;
+VAL_ 3221225472 bms0_chargingFullyChargedSts 0 "N/A" 1 "Charging" 2 "Fully Charged" ;
+VAL_ 3221225472 bms0_statusIgnitionRecognition 0 "Low" 1 "High" ;
+VAL_ 3221225472 bms0_statusBmsUserMode 0 "Standby Mode" 1 "TrustVHC Mode" 2 "TrustCHG Mode" 3 "Working Mode" ;
+VAL_ 3221225472 bms0_statusBmsOpState 0 "_OP_STATE_MFG" 1 "_OP_STATE_FAILURE" 2 "_OP_STATE_PACK" ;
+VAL_ 3221225472 bms0_statusCurrentDirection 0 "Rest" 1 "Charging" 2 "Discharging" ;
+VAL_ 3221225472 bms0_stsRentalFuncEnable 0 "Disable" 1 "Enable" ;
+VAL_ 3221225472 bms0_stsAuthFuncEnable 0 "Disable" 1 "Enable" ;
+VAL_ 3221225472 bms0_statusCB02 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms0_statusCB01 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms0_statusCB04 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms0_statusCB03 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms0_statusCB06 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms0_statusCB05 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms0_statusCB08 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms0_statusCB07 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms0_statusCB10 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms0_statusCB09 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms0_statusCB12 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms0_statusCB11 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms0_statusCB14 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms0_statusCB13 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms0_demOverVoltageCell 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms0_demOverVoltagePack 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms0_demUnderVoltageCell 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms0_demUnderVoltagePack 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms0_demOverCurrentChg 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms0_demOverCurrentDis 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms0_demOverTemperatureChg 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms0_demOverTemperatureDis 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms0_demUnderTemperatureChg 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms0_demUnderTemperatureDis 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms0_demImbCellChg 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms0_demImbCellRest 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms0_demImbCellTemperature 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms0_demImbCellSOC 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms0_statusPowerCFET 0 "Off" 1 "On" 2 "RSVD1" 3 "RSVD2" ;
+VAL_ 3221225472 bms0_statusPowerDFET 0 "Off" 1 "On" 2 "RSVD1" 3 "RSVD2" ;
+VAL_ 3221225472 bms0_statusLowCapacityAlarm 0 "Clear" 1 "Set" 2 "RSVD1" 3 "RSVD2" ;
+VAL_ 3221225472 bms0_statusPrechargeFET 0 "Off" 1 "On" 2 "RSVD1" 3 "RSVD2" ;
+VAL_ 3221225472 bms0_demAsicOverVoltage 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms0_demAsicUnderVoltage 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms0_demAsicOverCurrentDis 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms0_demAsicShortCurrent 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms0_demAsicDeviceXReady 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms0_demAsicOverRide 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms0_demBMSCFET 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms0_demBMSDFET 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms0_demBMSPFET 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms0_demBMSASICComm 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms0_demBMSASICShutdown 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms0_demBMSPFET2 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms0_demPackFuseBlow 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms0_demPackFuseResistance 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms0_demPackFuseOverCurrent 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms0_demPackFETTemperature 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms0_rentalinfo_expired 0 "AVAILABLE" 1 "EXPIRED" ;
+VAL_ 3221225472 bms0_statustrust_bms1charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms0_statustrust_bms0charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms0_statustrust_bms3charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms0_statustrust_bms2charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms0_resulttrust_bms1charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms0_resulttrust_bms0charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms0_resulttrust_bms3charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms0_resulttrust_bms2charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms0_statustrust_bms1cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms0_statustrust_bms0cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms0_statustrust_bms3cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms0_statustrust_bms2cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms0_resulttrust_bms1cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms0_resulttrust_bms0cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms0_resulttrust_bms3cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms0_resulttrust_bms2cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms0_demParallelOvrdSlave 0 "Normal" 1 "Warning1" ;
+VAL_ 3221225472 bms0_demParallelOvrdMaster 0 "Normal" 1 "Warning1" ;
+VAL_ 3221225472 bms0_demParallelDiffVoltage 0 "Normal" 1 "Warning1" ;
+VAL_ 3221225472 bms0_demParallelDiffCurrent 0 "Normal" 1 "Warning1" ;
+VAL_ 3221225472 bms0_demParallelDiffSOC 0 "Normal" 1 "Warning1" ;
+VAL_ 3221225472 bms0_demParallelDiffTemp 0 "Normal" 1 "Warning1" ;
+VAL_ 3221225472 bms0_demParallelDiffVer 0 "Normal" 1 "Warning1" ;
+VAL_ 3221225472 bms0_demParallelDiffSOH 0 "Normal" 1 "Warning1" ;
+VAL_ 3221225472 bms1_chargingFullyChargedSts 0 "N/A" 1 "Charging" 2 "Fully Charged" ;
+VAL_ 3221225472 bms1_statusIgnitionRecognition 0 "Low" 1 "High" ;
+VAL_ 3221225472 bms1_statusBmsUserMode 0 "Standby Mode" 1 "TrustVHC Mode" 2 "TrustCHG Mode" 3 "Working Mode" ;
+VAL_ 3221225472 bms1_statusBmsOpState 0 "_OP_STATE_MFG" 1 "_OP_STATE_FAILURE" 2 "_OP_STATE_PACK" ;
+VAL_ 3221225472 bms1_statusCurrentDirection 0 "Rest" 1 "Charging" 2 "Discharging" ;
+VAL_ 3221225472 bms1_stsRentalFuncEnable 0 "Disable" 1 "Enable" ;
+VAL_ 3221225472 bms1_stsAuthFuncEnable 0 "Disable" 1 "Enable" ;
+VAL_ 3221225472 bms1_statusCB02 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms1_statusCB01 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms1_statusCB04 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms1_statusCB03 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms1_statusCB06 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms1_statusCB05 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms1_statusCB08 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms1_statusCB07 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms1_statusCB10 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms1_statusCB09 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms1_statusCB12 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms1_statusCB11 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms1_statusCB14 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms1_statusCB13 0 "Off" 1 "On" ;
+VAL_ 3221225472 bms1_demOverVoltageCell 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms1_demOverVoltagePack 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms1_demUnderVoltageCell 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms1_demUnderVoltagePack 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms1_demOverCurrentChg 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms1_demOverCurrentDis 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms1_demOverTemperatureChg 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms1_demOverTemperatureDis 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms1_demUnderTemperatureChg 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms1_demUnderTemperatureDis 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms1_demImbCellChg 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms1_demImbCellRest 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms1_demImbCellTemperature 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms1_demImbCellSOC 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 3221225472 bms1_statusPowerCFET 0 "Off" 1 "On" 2 "RSVD1" 3 "RSVD2" ;
+VAL_ 3221225472 bms1_statusPowerDFET 0 "Off" 1 "On" 2 "RSVD1" 3 "RSVD2" ;
+VAL_ 3221225472 bms1_statusLowCapacityAlarm 0 "Clear" 1 "Set" 2 "RSVD1" 3 "RSVD2" ;
+VAL_ 3221225472 bms1_statusPrechargeFET 0 "Off" 1 "On" 2 "RSVD1" 3 "RSVD2" ;
+VAL_ 3221225472 bms1_demAsicOverVoltage 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms1_demAsicUnderVoltage 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms1_demAsicOverCurrentDis 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms1_demAsicShortCurrent 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms1_demAsicDeviceXReady 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms1_demAsicOverRide 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms1_demBMSCFET 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms1_demBMSDFET 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms1_demBMSPFET 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms1_demBMSASICComm 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms1_demBMSASICShutdown 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms1_demBMSPFET2 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms1_demPackFuseBlow 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms1_demPackFuseResistance 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms1_demPackFuseOverCurrent 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms1_demPackFETTemperature 0 "Normal" 3 "Fault" ;
+VAL_ 3221225472 bms1_rentalinfo_expired 0 "AVAILABLE" 1 "EXPIRED" ;
+VAL_ 3221225472 bms1_statustrust_bms1charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms1_statustrust_bms0charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms1_statustrust_bms3charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms1_statustrust_bms2charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms1_resulttrust_bms1charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms1_resulttrust_bms0charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms1_resulttrust_bms3charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms1_resulttrust_bms2charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms1_statustrust_bms1cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms1_statustrust_bms0cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms1_statustrust_bms3cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms1_statustrust_bms2cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms1_resulttrust_bms1cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms1_resulttrust_bms0cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms1_resulttrust_bms3cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms1_resulttrust_bms2cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 3221225472 bms1_demParallelOvrdSlave 0 "Normal" 1 "Warning1" ;
+VAL_ 3221225472 bms1_demParallelOvrdMaster 0 "Normal" 1 "Warning1" ;
+VAL_ 3221225472 bms1_demParallelDiffVoltage 0 "Normal" 1 "Warning1" ;
+VAL_ 3221225472 bms1_demParallelDiffCurrent 0 "Normal" 1 "Warning1" ;
+VAL_ 3221225472 bms1_demParallelDiffSOC 0 "Normal" 1 "Warning1" ;
+VAL_ 3221225472 bms1_demParallelDiffTemp 0 "Normal" 1 "Warning1" ;
+VAL_ 3221225472 bms1_demParallelDiffVer 0 "Normal" 1 "Warning1" ;
+VAL_ 3221225472 bms1_demParallelDiffSOH 0 "Normal" 1 "Warning1" ;
+VAL_ 1281 charger_runmode 4 "Protectected" 3 "Constant voltage mode" 2 "Constant current mode" 1 "Precharge mode" 0 "Reserver1" ;
+VAL_ 1281 charger_fastchargemode 1 "Fast charging" 0 "Normal charging" ;
+VAL_ 1282 charger_resulttrust_bms3 1 "Pass" 0 "Fail" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 1282 charger_resulttrust_bms2 1 "Pass" 0 "Fail" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 1282 charger_resulttrust_bms1 1 "Pass" 0 "Fail" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 1282 charger_resulttrust_bms0 1 "Pass" 0 "Fail" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 1282 charger_statustrust_bms3 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 1282 charger_statustrust_bms2 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 1282 charger_statustrust_bms1 0 "Stop" 1 "Start" 2 "RSVD1" 3 "RSVD2" ;
+VAL_ 1282 charger_statustrust_bms0 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 1282 charger_controlmode_bms 2 "Goto sleep mode" 1 "Goto working mode" 0 "RVSD" 3 "Go to Working Mode" 4 "Go to Sleep Mode" 5 "Go to Shutdown Mode" 6 "Go to VF Setting Mode" ;
+VAL_ 1028 hmi_smartkey_command 0 "Unauthenticated" 1 "Authenticated" ;
+VAL_ 1028 hmi_vehicle_on_off 0 "Turn OFF anti theft" 1 "Turn ON anti theft" ;
+VAL_ 268 vcu_turnrightlight_hmi 1 "Turn right is true" 0 "not turn right" ;
+VAL_ 268 vcu_turnleftlight_hmi 1 "Turnleft " 0 "Not turnleft" ;
+VAL_ 268 vcu_farhaedlampon_hmi 1 "Headlamp On" 0 "Headlamp off" ;
+VAL_ 268 vcu_displayspeedunit_hmi 1 "miles" 0 "Kmh" ;
+VAL_ 268 vcu_charrgerstatus_hmi 2 "Charger fail" 1 "Charrger online" 0 "Don't have charger" ;
+VAL_ 268 vcu_brakesignal_hmi 1 "Brake is active" 0 "Brake is not active" ;
+VAL_ 257 vcu_commrequired_scu 3 "RSVD2" 2 "RSVD1" 1 "Start" 0 "Stop" ;
+VAL_ 257 vcu_commrequired_blg 3 "RSVD2" 2 "RSVD1" 1 "Start" 0 "Stop" ;
+VAL_ 257 vcu_commrequired_hmi 3 "RSVD2" 2 "RSVD1" 1 "Start" 0 "Stop" ;
+VAL_ 257 vcu_commrequired_mcu 3 "RSVD2" 2 "RSVD1" 1 "Start" 0 "Stop" ;
+VAL_ 514 mcu_overvoltprotect 3 "Reserve2" 2 "Reserve1" 1 "Failure" 0 "Nofail" ;
+VAL_ 514 mcu_undervoltprotection 3 "Reserve2" 2 "Reserve1" 1 "Failure" 0 "Nofail" ;
+VAL_ 514 mcu_throttleprotect 3 "Reserve2" 2 "Reserve1" 1 "Failure" 0 "Nofail" ;
+VAL_ 514 mcu_stallingprotect 3 "Reserve2" 2 "Reserve1" 1 "Failure" 0 "Nofail" ;
+VAL_ 514 mcu_selfcheckfail 3 "Reserve2" 2 "Reserve1" 1 "Failure" 0 "Nofail" ;
+VAL_ 514 mcu_overheat 3 "Reserve2" 2 "Reserve1" 1 "Failure" 0 "Nofail" ;
+VAL_ 514 mcu_overcurrent 3 "Reserve2" 2 "Reserve1" 1 "Failure" 0 "Nofail" ;
+VAL_ 514 mcu_hallsensorfail 3 "Reserve2" 2 "Reserve1" 1 "Failure" 0 "Nofail" ;
+VAL_ 769 bms_chargingFullyChargedSts 0 "N/A" 1 "Charging" 2 "Fully Charged" ;
+VAL_ 771 bms_statusIgnitionRecognition 0 "Low" 1 "High" ;
+VAL_ 771 bms_statusBmsUserMode 0 "Standby Mode" 1 "TrustVHC Mode" 2 "TrustCHG Mode" 3 "Working Mode" ;
+VAL_ 771 bms_statusBmsOpState 0 "_OP_STATE_MFG" 1 "_OP_STATE_FAILURE" 2 "_OP_STATE_PACK" ;
+VAL_ 771 bms_statusCurrentDirection 0 "Rest" 1 "Charging" 2 "Discharging" ;
+VAL_ 771 bms_stsRentalFuncEnable 0 "Disable" 1 "Enable" ;
+VAL_ 771 bms_stsAuthFuncEnable 0 "Disable" 1 "Enable" ;
+VAL_ 772 bms_statusCB12 0 "Off" 1 "On" ;
+VAL_ 772 bms_statusCB02 0 "Off" 1 "On" ;
+VAL_ 772 bms_statusCB01 0 "Off" 1 "On" ;
+VAL_ 772 bms_statusCB04 0 "Off" 1 "On" ;
+VAL_ 772 bms_statusCB03 0 "Off" 1 "On" ;
+VAL_ 772 bms_statusCB06 0 "Off" 1 "On" ;
+VAL_ 772 bms_statusCB05 0 "Off" 1 "On" ;
+VAL_ 772 bms_statusCB08 0 "Off" 1 "On" ;
+VAL_ 772 bms_statusCB07 0 "Off" 1 "On" ;
+VAL_ 773 bms_statusCB14 0 "Off" 1 "On" ;
+VAL_ 773 bms_statusCB13 0 "Off" 1 "On" ;
+VAL_ 774 bms_demOverVoltageCell 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 774 bms_demOverVoltagePack 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 774 bms_demUnderVoltageCell 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 774 bms_demUnderVoltagePack 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 774 bms_demOverCurrentChg 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 774 bms_demOverCurrentDis 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 774 bms_demOverTemperatureChg 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 774 bms_demOverTemperatureDis 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 774 bms_demUnderTemperatureChg 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 774 bms_demUnderTemperatureDis 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 774 bms_demImbCellChg 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 774 bms_demImbCellRest 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 774 bms_demImbCellTemperature 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 774 bms_demImbCellSOC 0 "Normal" 1 "Warning1" 2 "Warning2" 3 "Fault" 4 "Failure" 5 "RSVD5" 6 "RSVD6" 7 "RSVD7" ;
+VAL_ 777 bms_statusPowerCFET 0 "Off" 1 "On" 2 "RSVD1" 3 "RSVD2" ;
+VAL_ 777 bms_statusPowerDFET 0 "Off" 1 "On" 2 "RSVD1" 3 "RSVD2" ;
+VAL_ 777 bms_statusLowCapacityAlarm 0 "Clear" 1 "Set" 2 "RSVD1" 3 "RSVD2" ;
+VAL_ 777 bms_statusPrechargeFET 0 "Off" 1 "On" 2 "RSVD1" 3 "RSVD2" ;
+VAL_ 780 bms_demAsicOverVoltage 0 "Normal" 3 "Fault" ;
+VAL_ 780 bms_demAsicUnderVoltage 0 "Normal" 3 "Fault" ;
+VAL_ 780 bms_demAsicOverCurrentDis 0 "Normal" 3 "Fault" ;
+VAL_ 780 bms_demAsicShortCurrent 0 "Normal" 3 "Fault" ;
+VAL_ 780 bms_demAsicDeviceXReady 0 "Normal" 3 "Fault" ;
+VAL_ 780 bms_demAsicOverRide 0 "Normal" 3 "Fault" ;
+VAL_ 789 bms_demBMSCFET 0 "Normal" 3 "Fault" ;
+VAL_ 789 bms_demBMSDFET 0 "Normal" 3 "Fault" ;
+VAL_ 789 bms_demBMSPFET 0 "Normal" 3 "Fault" ;
+VAL_ 789 bms_demBMSASICComm 0 "Normal" 3 "Fault" ;
+VAL_ 789 bms_demBMSASICShutdown 0 "Normal" 3 "Fault" ;
+VAL_ 789 bms_demBMSPFET2 0 "Normal" 3 "Fault" ;
+VAL_ 791 bms_demPackFuseBlow 0 "Normal" 3 "Fault" ;
+VAL_ 791 bms_demPackFuseResistance 0 "Normal" 3 "Fault" ;
+VAL_ 791 bms_demPackFuseOverCurrent 0 "Normal" 3 "Fault" ;
+VAL_ 791 bms_demPackFETTemperature 0 "Normal" 3 "Fault" ;
+VAL_ 803 bms_rentalinfo_expired 0 "AVAILABLE" 1 "EXPIRED" ;
+VAL_ 806 bms_statustrust_bms1charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 806 bms_statustrust_bms0charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 806 bms_statustrust_bms3charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 806 bms_statustrust_bms2charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 806 bms_resulttrust_bms1charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 806 bms_resulttrust_bms0charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 806 bms_resulttrust_bms3charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 806 bms_resulttrust_bms2charger 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 806 bms_statustrust_bms1cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 806 bms_statustrust_bms0cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 806 bms_statustrust_bms3cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 806 bms_statustrust_bms2cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 806 bms_resulttrust_bms1cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 806 bms_resulttrust_bms0cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 806 bms_resulttrust_bms3cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 806 bms_resulttrust_bms2cbox 0 "READY" 1 "PASS" 2 "FAIL" 3 "PROCESSING" 4 "TIMEOUT" ;
+VAL_ 807 bms_demParallelOvrdSlave 0 "Normal" 1 "Warning1" ;
+VAL_ 807 bms_demParallelOvrdMaster 0 "Normal" 1 "Warning1" ;
+VAL_ 807 bms_demParallelDiffVoltage 0 "Normal" 1 "Warning1" ;
+VAL_ 807 bms_demParallelDiffCurrent 0 "Normal" 1 "Warning1" ;
+VAL_ 807 bms_demParallelDiffSOC 0 "Normal" 1 "Warning1" ;
+VAL_ 807 bms_demParallelDiffTemp 0 "Normal" 1 "Warning1" ;
+VAL_ 807 bms_demParallelDiffVer 0 "Normal" 1 "Warning1" ;
+VAL_ 807 bms_demParallelDiffSOH 0 "Normal" 1 "Warning1" ;
+
